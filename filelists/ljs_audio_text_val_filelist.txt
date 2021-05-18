@@ -1,0 +1,5 @@
+LJSpeech-1.1/wavs/LJ001-0096.wav|have now come into general use and are obviously a great improvement on the ordinary modern style in use in England, which is in fact the Bodoni type
+LJSpeech-1.1/wavs/LJ001-0097.wav|a little reduced in ugliness. The design of the letters of this modern old style leaves a good deal to be desired,
+LJSpeech-1.1/wavs/LJ001-0098.wav|and the whole effect is a little too gray, owing to the thinness of the letters.
+LJSpeech-1.1/wavs/LJ001-0099.wav|It must be remembered, however, that most modern printing is done by machinery on soft paper, and not by the hand press,
+LJSpeech-1.1/wavs/LJ001-0100.wav|and these somewhat wiry letters are suitable for the machine process, which would not do justice to letters of more generous design.

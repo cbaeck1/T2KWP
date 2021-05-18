@@ -1,0 +1,560 @@
+
+
+preprocess
+    blizzard
+    ljspeech
+    sitec
+    sitec_short
+    selvas_multi
+    libri_tts
+    selvas_multispeaker_pron  -> not exit file
+    public_korean_pron -> not exit file
+    
+    selvas_wav
+    public_korean_wav
+    kss_wav    
+    integrate_dataset = selvas_wav + public_korean_wav + kss_wav
+    check_file_integrity
+    generate_mel_f0
+    cal_f0_scale_per_training_speaker
+
+
+python preprocess.py --dataset selvas_multispeaker_pron
+python preprocess.py --dataset public_korean_pron
+
+python preprocess.py --dataset selvas_wav
+	data split: for every 400 audio, make it eval & the same for test    
+python preprocess.py --dataset public_korean_wav
+	data split: for every 400 audio, make it eval & the same for test
+python preprocess.py --dataset kss_wav
+	data split: for every 400 audio, make it eval & the same for test
+
+python preprocess.py --dataset integrate_dataset
+python preprocess.py --dataset check_file_integrity
+python preprocess.py --dataset generate_mel_f0
+    
+filelists
+    selvas_main_train.txt
+    wav_less_than_12s_158_speakers_train.txt 
+        
+    public_korean_train.txt       
+
+
+1) selvas_wav : 22050 sample rate
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nea/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nea
+mkdir /mnt/d/data/selvas_wav/nea/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nea/wav/*.wav /mnt/d/data/selvas_wav/nea/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/neb/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/neb
+mkdir /mnt/d/data/selvas_wav/neb/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/neb/wav/*.wav /mnt/d/data/selvas_wav/neb/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nec/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nec
+mkdir /mnt/d/data/selvas_wav/nec/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nec/wav/*.wav /mnt/d/data/selvas_wav/nec/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/ned/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/ned
+mkdir /mnt/d/data/selvas_wav/ned/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/ned/wav/*.wav /mnt/d/data/selvas_wav/ned/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nee/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nee
+mkdir /mnt/d/data/selvas_wav/nee/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nee/wav/*.wav /mnt/d/data/selvas_wav/nee/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nek/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nek
+mkdir /mnt/d/data/selvas_wav/nek/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nek/wav/*.wav /mnt/d/data/selvas_wav/nek/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nel/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nel
+mkdir /mnt/d/data/selvas_wav/nel/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nel/wav/*.wav /mnt/d/data/selvas_wav/nel/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nem/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nem
+mkdir /mnt/d/data/selvas_wav/nem/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nem/wav/*.wav /mnt/d/data/selvas_wav/nem/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nen/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/nen
+mkdir /mnt/d/data/selvas_wav/nen/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/nen/wav/*.wav /mnt/d/data/selvas_wav/nen/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/neo/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/neo
+mkdir /mnt/d/data/selvas_wav/neo/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/emotional-to-emotional/neo/wav/*.wav /mnt/d/data/selvas_wav/neo/wav_trimmed_22050/
+
+--
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/ema/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/ema
+mkdir /mnt/d/data/selvas_wav/ema/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/ema/wav/*.wav /mnt/d/data/selvas_wav/ema/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emb/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/emb
+mkdir /mnt/d/data/selvas_wav/emb/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emb/wav/*.wav /mnt/d/data/selvas_wav/emb/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emf/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/emf
+mkdir /mnt/d/data/selvas_wav/emf/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emf/wav/*.wav /mnt/d/data/selvas_wav/emf/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emg/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/emg
+mkdir /mnt/d/data/selvas_wav/emg/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emg/wav/*.wav /mnt/d/data/selvas_wav/emg/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emh/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/emh
+mkdir /mnt/d/data/selvas_wav/emh/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Emotional/plain-to-emotional/emh/wav/*.wav /mnt/d/data/selvas_wav/emh/wav_trimmed_22050/
+
+--
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/ada/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/ada
+mkdir /mnt/d/data/selvas_wav/ada/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/ada/wav/*.wav /mnt/d/data/selvas_wav/ada/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/adb/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/adb
+mkdir /mnt/d/data/selvas_wav/adb/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/adb/wav/*.wav /mnt/d/data/selvas_wav/adb/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/adc/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/adc
+mkdir /mnt/d/data/selvas_wav/adc/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/adc/wav/*.wav /mnt/d/data/selvas_wav/adc/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/add/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/add
+mkdir /mnt/d/data/selvas_wav/add/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/adaptive/add/wav/*.wav /mnt/d/data/selvas_wav/add/wav_trimmed_22050/
+
+--
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/ava/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/ava
+mkdir /mnt/d/data/selvas_wav/ava/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/ava/wav/*.wav /mnt/d/data/selvas_wav/ava/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/avb/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/avb
+mkdir /mnt/d/data/selvas_wav/avb/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/avb/wav/*.wav /mnt/d/data/selvas_wav/avb/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/avc/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/avc
+mkdir /mnt/d/data/selvas_wav/avc/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/avc/wav/*.wav /mnt/d/data/selvas_wav/avc/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/avd/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/avd
+mkdir /mnt/d/data/selvas_wav/avd/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Main/average_voice_model/avd/wav/*.wav /mnt/d/data/selvas_wav/avd/wav_trimmed_22050/
+
+--
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfa/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfa
+mkdir /mnt/d/data/selvas_wav/pfa/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfa/wav/*.wav /mnt/d/data/selvas_wav/pfa/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfb/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfb
+mkdir /mnt/d/data/selvas_wav/pfb/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfb/wav/*.wav /mnt/d/data/selvas_wav/pfb/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfc/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfc
+mkdir /mnt/d/data/selvas_wav/pfc/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfc/wav/*.wav /mnt/d/data/selvas_wav/pfc/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfd/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfd
+mkdir /mnt/d/data/selvas_wav/pfd/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfd/wav/*.wav /mnt/d/data/selvas_wav/pfd/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfi/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfi
+mkdir /mnt/d/data/selvas_wav/pfi/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfi/wav/*.wav /mnt/d/data/selvas_wav/pfi/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfl/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfl
+mkdir /mnt/d/data/selvas_wav/pfl/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfl/wav/*.wav /mnt/d/data/selvas_wav/pfl/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfm/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfm
+mkdir /mnt/d/data/selvas_wav/pfm/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfm/wav/*.wav /mnt/d/data/selvas_wav/pfm/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfo/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfo
+mkdir /mnt/d/data/selvas_wav/pfo/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfo/wav/*.wav /mnt/d/data/selvas_wav/pfo/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfp/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pfp
+mkdir /mnt/d/data/selvas_wav/pfp/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pfp/wav/*.wav /mnt/d/data/selvas_wav/pfp/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pma/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pma
+mkdir /mnt/d/data/selvas_wav/pma/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pma/wav/*.wav /mnt/d/data/selvas_wav/pma/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmb/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pmb
+mkdir /mnt/d/data/selvas_wav/pmb/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmb/wav/*.wav /mnt/d/data/selvas_wav/pmb/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmc/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pmc
+mkdir /mnt/d/data/selvas_wav/pmc/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmc/wav/*.wav /mnt/d/data/selvas_wav/pmc/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmd/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pmd
+mkdir /mnt/d/data/selvas_wav/pmd/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmd/wav/*.wav /mnt/d/data/selvas_wav/pmd/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmi/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pmi
+mkdir /mnt/d/data/selvas_wav/pmi/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmi/wav/*.wav /mnt/d/data/selvas_wav/pmi/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmj/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pmj
+mkdir /mnt/d/data/selvas_wav/pmj/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pmj/wav/*.wav /mnt/d/data/selvas_wav/pmj/wav_trimmed_22050/
+
+ll /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pml/wav/*.wav
+mkdir /mnt/d/data/selvas_wav/pml
+mkdir /mnt/d/data/selvas_wav/pml/wav_trimmed_22050
+cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pml/wav/*.wav /mnt/d/data/selvas_wav/pml/wav_trimmed_22050/
+
+------------------------------------------
+"/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-3/mw12/"/*.wav  not exist
+/mnt/sdd1/leftout_korean_old_male/wav_16000 mz01 mz02 mz03 mz04 mz05 mz06 mz07 mz08 mz09  
+
+
+/mnt/d/korean_public_wav/wav_16000/mv01 
+ll "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-1/mv01"
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv01 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-1/mv01/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv01
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv02 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-1/mv02/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv02
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv03 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-1/mv03/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv03
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv04 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-1/mv04/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv04
+
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv05 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-2/mv05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv06 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-2/mv06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv07 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-2/mv07/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv07
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv08 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-2/mv08/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv08
+
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv09 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-3/mv09/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv09
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv10 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-3/mv10/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv10
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv11 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-3/mv11/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv11
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv12 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-3/mv12/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv12
+
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv13 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv13/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv13
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv14 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv14/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv14
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv15 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv15/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv15
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv16 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv16/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv16
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv17 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv17/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv17
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv18 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv18/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv18
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv19 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv19/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv19
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mv20 
+cp "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-4/mv20/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mv20
+
+
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv01 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-1/fv01/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv01
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv02 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-1/fv02/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv02
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv03 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-1/fv03/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv03
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv04 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-1/fv04/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv04
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv05 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-2/fv05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv06 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-2/fv06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv07 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-2/fv07/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv07
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv08 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-2/fv08/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv08
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv09 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-3/fv09/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv09
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv10 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-3/fv10/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv10
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv11 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-3/fv11/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv11
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv12 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-3/fv12/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv12
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv13 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-4/fv13/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv13
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv14 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-4/fv14/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv14
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv15 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-4/fv15/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv15
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv16 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-4/fv16/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv16
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv17 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-5/fv17/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv17
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv18 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-5/fv18/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv18
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv19 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-5/fv19/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv19
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fv20 
+cp "/mnt/d/data/말뭉치파일/3-1 #2 (20대 여성) 5-5/fv20/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fv20
+
+
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw01 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-1/mw01/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw01
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw02 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-1/mw02/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw02
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw03 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-1/mw03/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw03
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw04 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-1/mw04/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw04
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw05 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-2/mw05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw06 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-2/mw06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw07 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-2/mw07/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw07
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw08 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-2/mw08/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw08
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw09 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-3/mw09/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw09
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw10 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-3/mw10/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw10
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw11 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-3/mw11/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw11
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw12 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-3/mw12/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw12
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw13 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-4/mw13/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw13
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw14 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-4/mw14/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw14
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw15 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-4/mw15/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw15
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw16 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-4/mw16/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw16
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw17 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-5/mw17/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw17
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw18 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-5/mw18/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw18
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw19 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-5/mw19/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw19
+mkdir /mnt/d/data/korean_public_wav/wav_16000/mw20 
+cp "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-5/mw20/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/mw20
+
+
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-1/fx01/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx01
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx02 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-1/fx02/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx02
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx03 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-1/fx03/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx03
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx04 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-1/fx04/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx04
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx05 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-2/fx05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx06 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-2/fx06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx07 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-2/fx07/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx07
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx08 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-2/fx08/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx08
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx09 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-3/fx09/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx09
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx10 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-3/fx10/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx10
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx11 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-3/fx11/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx11
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx12 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-3/fx12/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx12
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx13 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-4/fx13/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx13
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx14 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-4/fx14/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx14
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx15 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-4/fx15/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx15
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx16 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-4/fx16/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx16
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx17 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-5/fx17/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx17
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx18 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-5/fx18/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx18
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx19 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-5/fx19/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx19
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fx20 
+cp "/mnt/d/data/말뭉치파일/3-2 #2 (40대 여성) 5-5/fx20/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fx20
+
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy01 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy01/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy01
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy02 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy02/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy02
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy03 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy03/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy03
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy04 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy04/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy04
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy05 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy06 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy07 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy07/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy07
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy08 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-1/3-3(50female)/fy08/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy08
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy09 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy09/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy09
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy10
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy10/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy10
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy11
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy11/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy11
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy12
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy12/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy12
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy13
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy13/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy13
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy14
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy14/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy14
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy15
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-2/3-3(50female)/fy15/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy15
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy16
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-3/3-3(50female)/fy16/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy16
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy17
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-3/3-3(50female)/fy17/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy17
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fy18
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-3/3-3(50female)/fy18/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fy18
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fz05
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-3/3-3(50female)/fz05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fz05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/fz06
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-3/3-3(50female)/fz06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/fz06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my01 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my01/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my01
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my02 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my02/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my02
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my03 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my03/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my03
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my04 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my04/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my04
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my05 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my05/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my05
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my06 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my06/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my06
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my07 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-4/3-3(50male)/my07/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my07
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my08 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/my08/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my08
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my09 
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/my09/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my09
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my10
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/my10/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my10
+mkdir /mnt/d/data/korean_public_wav/wav_16000/my11
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/my11/"/*.wav /mnt/d/data/korean_public_wav/wav_16000/my11
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz01
+
+/mnt/sdd1/leftout_korean_old_male/wav_16000 mz01 mz02 mz03 mz04 mz05 mz06 mz07 mz08 mz09  
+
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/mz01/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz01
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz02
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/mz02/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz02
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz03
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-5/3-3(50male)/mz03/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz03
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz04
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-6/3-3(50male)/mz04/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz04
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz05
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-6/3-3(50male)/mz05/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz05
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz06
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-6/3-3(50male)/mz06/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz06
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz07
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-6/3-3(50male)/mz07/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz07
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz08
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-6/3-3(50male)/mz08/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz08
+mkdir /mnt/d/data/leftout_korean_old_male/wav_16000/mz09
+cp "/mnt/d/data/말뭉치파일/3-3 #3 (50대 이상 남성여성) 6-6/3-3(50male)/mz09/"/*.wav /mnt/d/data/leftout_korean_old_male/wav_16000/mz09
+
+
+
+
+
+
+
+
+--  
+Main 
+    01001 ~ 01049
+    02001 ~ 02275
+    
+emotional
+    00001 ~ 00005    
+    00101 ~ 00105    
+    00201 ~ 00205    
+    00301 ~ 00305    
+Personality
+    00001 ~ 00027
+    ...
+
+/mnt/sdd1/selvas_wav/pma/wav_trimmed_22050
+    D:\data\emotiontts_open_db\Dataset\SpeechCorpus\Emotional\emotional-to-emotional\nea\wav
+    D:\data\emotiontts_open_db\Dataset\SpeechCorpus\Emotional\plain-to-emotional\ema\wav
+    D:\data\emotiontts_open_db\Dataset\SpeechCorpus\Main\adaptive\ada\wav
+    D:\data\emotiontts_open_db\Dataset\SpeechCorpus\Main\average_voice_model\ava\wav
+    D:\data\emotiontts_open_db\Dataset\SpeechCorpus\Personality\pfa\wav    
+    
+/mnt/sdd1/selvas_wav/Main/wav_trimmed_22050
+    D:\data\emotiontts_open_db\Dataset\SpeechCorpus\Main\main\lmy\wav
+    
+/mnt/d/korean_public_wav/wav_16000 
+    "/mnt/d/data/말뭉치파일/3-1 #1 (20대 남성) 4-1/mv01"
+    
+/mnt/sdd1/leftout_males/pmh/wav_16000 pmg pml pmh pmo pmm pmn
+
+
+
+
+
+
+trainset = selvas_main_train
+python train.py {program arguments}
+python train.py -o checkpointdir -l logdir 
+
+
+trainset = selvas_main_train
+
+
+1. Soft pitchtron
+python inferent_soft_pitchtron.py
+2. Hard pitchtron
+python inference_hard_pitchtron.py 
+3. GST
+python inference_gst_tts.py 
+
+

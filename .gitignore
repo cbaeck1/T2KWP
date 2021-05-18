@@ -1,0 +1,16 @@
+.venv
+.vscode
+apex
+waveglow
+checkpointdir
+outdir
+kss
+kss_wav
+public_korean_wav
+LJSpeech-1.1
+mel_spectrograms
+selvas_wav
+*.zip
+*.wav
+*.png
+

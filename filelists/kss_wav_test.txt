@@ -1,0 +1,33 @@
+/mnt/d/data/kss_wav/wav_22050/1_0000.wav|그는 괜찮은 척하려고 애쓰는 것 같았다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/1_0400.wav|사장님이 기다리고 계십니다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/1_0800.wav|게시판에 글 좀 올려.|kss|1
+/mnt/d/data/kss_wav/wav_22050/2_0160.wav|상처가 그만해서 그나마 다행이야.|kss|1
+/mnt/d/data/kss_wav/wav_22050/2_0560.wav|어제부터 날씨가 몹시 사나워요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/2_0960.wav|누가 거기에 가느냐는 별로 중요하지 않아요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_0203.wav|저는 부모님으로부터 아무 주목을 받지 못했어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_0603.wav|나는 집을 나서자마자 뛰기 시작했다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_1003.wav|저는 수줍음이 많아요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_1403.wav|사람들은 정치인들이 양심적으로 행동하기를 기대한다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_1803.wav|그는 인내심을 가지고 조용히 딸을 타일렀다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_2203.wav|아내는 부엌에서 음식을 준비하고 있습니다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_2603.wav|아내는 지금 출산 휴가 중이에요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_3003.wav|대통령은 총리와 대화 중이다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_3403.wav|전구 갈아야겠어.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_3803.wav|승객들이 검색대를 통과하고 있다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_4203.wav|모든 게 눈 깜짝할 사이에 일어났어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_4603.wav|그녀의 점수는 반 평균 이하였다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_5003.wav|두근거리다|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_0378.wav|비서 일을 찾고 있어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_0778.wav|부산에서는 매년 가을 국제적인 영화 축제가 열려요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_1178.wav|요즘 두통이 너무 심해요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_1578.wav|머리 좀 건드리지 마.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_1978.wav|저는 어릴 때부터 과학에 관심이 많았어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_2378.wav|혀를 내밀어 보세요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_2778.wav|자유롭게 질문해 주세요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_3178.wav|졸업하고 나면 뭐 할 거예요?|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_3578.wav|커피 맛이 어때?|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_3978.wav|그 사람은 나이보다 늙어 보여요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_4378.wav|이 단어는 영어로부터 왔어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_4778.wav|4월 5일은 나무를 심는 날이에요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_5178.wav|싱싱한 딸기를 좀 사고 싶어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_5578.wav|저는 예술에 대해 아는 게 없어요.|kss|1
