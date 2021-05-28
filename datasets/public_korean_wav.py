@@ -23,7 +23,7 @@ def build_from_path(in_dir, out_dir, meta_dir, meta_path, filelist_names, num_wo
     # texts2d = [[] for i in range(len(wav_paths))]
     texts2d = [[]]
     #for i in range(len(books)):
-    with open(meta_path, 'r', encoding='utf-8-sig') as f:
+    with open(meta_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         print("파일 {}, 문서 {}".format(len(wav_paths), len(lines)))
         texts2d = [[] for i in range(len(lines))]

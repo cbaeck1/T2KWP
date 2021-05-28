@@ -1,5 +1,140 @@
 
 
+nltk==3.6.2
+$ python3 -m pip download -r ./requirements.txt
+
+
+=================================================================                       
+
+$ mkdir T2WP
+$ cd T2WP
+$ ls -l /mnt/d/work/workspace/T2WP
+export LANG='ko_KR.UTF-8'
+
+$ cp -R /mnt/d/work/workspace/T2WP/* .
+
+
+
+
+----------------------------------------
+# 다른 창에서 
+
+1) container id 조회 
+> docker ps -a
+2) container를 image로 저장
+> docker commit 79d9ec3556c5 ubuntu:T2WP
+> docker images
+> docker save -o d:\T2WP.tar ubuntu:T2WP
+
+----------------------------------------
+# 다른 시스템에서
+$ docker ps -a
+$ docker load -i ./T2WP.tar
+$ docker images
+$ docker run -it --ipc=host --name torch18 --volume /esb_nfs/tmp/T2WP:/mnt/d ubuntu:T2WP /bin/bash
+
+$ docker start torch18
+$ docker attach torch18
+-----------------------------
+root@22362417d2c1:/#
+# cat /etc/issue
+# export LANG="ko_KR.UTF-8"
+
+# cd /T2WP
+# head filelists/ljs_audio_text_test_filelist.txt
+# sed -i -- 's,LJSpeech-1.1/wavs,/mnt/d/LJSpeech-1.1/wavs,g' filelists/*.txt
+
+# offline 설치 
+# cd /mnt/d/packages/T2WP
+# python3 -m pip install --no-index --find-links="./" -r ./requirements.txt
+
+--no-index 와 --find-links 의 의미는 다음과 같다.
+--no-index                  Ignore package index (only looking at --find-links URLs instead).
+-f, --find-links <url>      If a url or path to an html file, then parse for links to archives. If a local path or file://url that's a directory, then look for archives in the directory listing.
+
+# Training
+# cd /T2WP
+# python3 train.py --output_directory=/mnt/d/outdir --log_directory=/mnt/d/logdir
+
+# Training using a pre-trained model
+# python3 train.py --output_directory=/mnt/d/outdir --log_directory=/mnt/d/logdir -c /mnt/d/tacotron2_statedict.pt --warm_start
+
+# Multi-GPU (distributed) and Automatic Mixed Precision Training
+
+# Inference demo
+
+
+--ipc=host
+RuntimeError: DataLoader worker (pid 1927) is killed by signal: Bus error. It is possible that dataloader                              's workers are out of shared memory. Please try to raise your shared memory limit.
+
+
+
+-------------------------------------------------------------------------------------
+# T2KWP 
+$ docker ps -a
+$ docker rm c67883b8a468  
+$ docker load -i ./T2WP.tar
+
+$ docker run -it --ipc=host --name T2KWP --volume /esb_nfs/tmp/:/mnt/d ubuntu:T2WP /bin/bash
+or 
+$ docker start T2KWP
+$ docker attach T2KWP
+-----------------------------
+root@bfa21bf6ea80:/#
+# cat /etc/issue
+# export LANG="ko_KR.UTF-8"
+
+# offline 설치 
+# cd /mnt/d/packages/T2WP
+# python3 -m pip install --no-index --find-links="./" -r ./requirements.txt
+
+# cd /mnt/d/packages/nltk
+# python3 -m pip install --no-index --find-links="./" -r ./requirements.txt
+
+# sample
+cd /mnt/d/T2KWP/filelists
+cp /mnt/d/T2KWP/filelists/sample/* .
+
+# total
+cd /mnt/d/T2KWP/filelists
+cp /mnt/d/T2KWP/filelists/sample/* .
+
+python3 preprocess.py
+python3 train.py
+
+
+
+  File "/usr/local/lib/python3.6/dist-packages/nltk/data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError:
+**********************************************************************
+  Resource punkt not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt/PY3/english.pickle
+
+  Searched in:
+    - '/root/nltk_data'
+    - '/usr/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - ''
+**********************************************************************
+
+
+
+
+
+
 preprocess
     blizzard
     ljspeech
@@ -18,15 +153,14 @@ preprocess
     generate_mel_f0
     cal_f0_scale_per_training_speaker
 
-
 python preprocess.py --dataset selvas_multispeaker_pron
 python preprocess.py --dataset public_korean_pron
 
-python preprocess.py --dataset selvas_wav
+python preprocess.py --dataset selvas_wav --sample True
 	data split: for every 400 audio, make it eval & the same for test    
-python preprocess.py --dataset public_korean_wav
+python preprocess.py --dataset public_korean_wav --sample True
 	data split: for every 400 audio, make it eval & the same for test
-python preprocess.py --dataset kss_wav
+python preprocess.py --dataset kss_wav --sample True
 	data split: for every 400 audio, make it eval & the same for test
 
 python preprocess.py --dataset integrate_dataset
@@ -244,6 +378,16 @@ cp /mnt/d/data/emotiontts_open_db/Dataset/SpeechCorpus/Personality/pml/wav/*.wav
 ------------------------------------------
 "/mnt/d/data/말뭉치파일/3-2 #1 (30대 남성) 5-3/mw12/"/*.wav  not exist
 /mnt/sdd1/leftout_korean_old_male/wav_16000 mz01 mz02 mz03 mz04 mz05 mz06 mz07 mz08 mz09  
+
+
+script/mv
+script/fv
+script/mw
+script/fx
+script/fy
+script/my
+
+
 
 
 /mnt/d/korean_public_wav/wav_16000/mv01 

@@ -29,8 +29,8 @@ def create_hparams(hparams_string=None, verbose=False):
         #training_files='filelists/ljs_audio_text_train_filelist.txt',
         #validation_files='filelists/ljs_audio_text_val_filelist.txt',
         #text_cleaners=['english_cleaners'],
-        training_files='filelists/train_korean_wav.txt',
-        validation_files='filelists/valid_korean_wav.txt',
+        training_files='filelists/merge_train.txt',
+        validation_files='filelists/merge_valid.txt',
         text_cleaners=['korean_cleaners'],
         cmudict_path="data/cmu_dictionary",
         # add
@@ -93,7 +93,7 @@ def create_hparams(hparams_string=None, verbose=False):
         weight_decay=1e-6,
         grad_clip_thresh=1.0,
         #batch_size=64,
-        batch_size=16,
+        batch_size=64,
         mask_padding=True  # set model's padded outputs to padded values
     )
 

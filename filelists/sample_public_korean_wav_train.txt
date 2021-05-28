@@ -13,6 +13,8 @@ public_korean_wav/wav_22050/fx08/fx08_t01_s15.wav|이래서 아이드른, 마른
 public_korean_wav/wav_22050/fx08/fx08_t01_s16.wav|그러나 너구리보다도 아이드리 먼저 연기를 먹꼬 물러낟따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s17.wav|윋또리를 버서 부채 대신 휘둘러 보기도 해쓰나, 너구리는 쉽싸리 나오지 아낟따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s19.wav|아무튼, 늘근 너구리가 조무래기드레게 그리 호라코락 자필 껃 깓찌느 나낟따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t01_s20.wav|진달래가 피고 잔디가 새로 도다나기 시자카면, 아이드른 약쏘기나 한 듣 빰받꼴로 모여드럳따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t01_s21.wav|이 밤받꼬른 산도 아니고 들도 아닌 펑퍼지만 구릉으로서, 이 고장 아이드레 노리터로 돼 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s22.wav|둘레에는 잠목꽈 가시 덩굴드리 얼켣찌만, 등성이로는 오솔끼리 나 읻꼬, 군데군데 잔디를 곱께 이븐 무덤드리 도래소레 둘려 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s23.wav|여기에서 아이드른 패를 갈라 씨름도 하고 말타기도 핻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s25.wav|잔디에 배를 깔고 삘기를 까 씹끼도 하고, 왕개미를 자바다가 손바다게 노코 놀려 보기도 핻따.|fx08|1
@@ -29,6 +31,8 @@ public_korean_wav/wav_22050/fx08/fx08_t01_s36.wav|전머기 새끼소는 참 귀
 public_korean_wav/wav_22050/fx08/fx08_t01_s37.wav|새끼 때 귀엽찌 아는 짐승이 이쓸까마는, 간난 송아지만큼 귀여운 짐승도 업쓸 껃 까탇따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s38.wav|전머기 송아지를 안고 얼구를 비비대 보면, 터리 비단결보다도 더 보드랍꼬 매끄낻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s39.wav|송눈써베 그느리 진 둥글고 큰 눈망우른 한 오리에 불평도 의심도 업씨 언제나 말꼬 조용아기마 낻따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t01_s40.wav|그러나 송아지는 개나 고양이 새끼와는 달리, 안기기만 하면 뛰처나가려고 잘 바동거렫따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t01_s41.wav|바동거려도 노아 주지 아느면 ‘메에’ 하고 울기도 핻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s42.wav|송아지가 ‘메에’ 하고 울면, 어미소가 ‘무우’ 하고 어슬렁어슬렁 다가오기도 핻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s43.wav|이럴 때 제 새끼를 노아 주지 아느면, 어미소는 ‘푸우푸우’ 하고 숨겨리 거치러지고 때로는 받끼도 핻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t01_s44.wav|멛쌔지블 차자 뒤지고 꿩 새끼를 쫃꼬 하는 동안 해가 뉘연뉘연 너머가면, 아이드른 제각끼 소를 차자 압쎄우고 마을로 내려왇따.|fx08|1
@@ -47,6 +51,8 @@ public_korean_wav/wav_22050/fx08/fx08_t02_s05.wav|그런데 어제까지는 개�
 public_korean_wav/wav_22050/fx08/fx08_t02_s06.wav|소녀는 개울두게 안자 버렫따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s07.wav|소녀가 비키기를 기다리자는 거시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s08.wav|요행 지나가는 사라미 이써, 소녀가 기를 비켜 주얻따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s09.wav|다음 나른 좀 늗께 개울가로 나왇따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s10.wav|이 나른 소녀가 징검다리 한가운데 안자 세수를 하고 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s11.wav|부농 스웨터 소매를 거더올린 팔과 목떨미가 마냥 히얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s12.wav|한참 세수를 하고 나더니, 이버네는 물 소글 빠니 드려다본다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s13.wav|얼구리라도 비추어 보는 거시리라.|fx08|1
@@ -65,6 +71,8 @@ public_korean_wav/wav_22050/fx08/fx08_t02_s25.wav|소녀는 저도 모르게 벌
 public_korean_wav/wav_22050/fx08/fx08_t02_s26.wav|단발머리를 나풀거리며 소녀가 막 딸린다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s27.wav|갈받 사읻낄로 드러섣따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s28.wav|뒤에는 청냥안 가을 핻싸 라래 빈나는 갈꼳뿐.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s29.wav|이제 저쯤 갈반머리로 소녀가 나타나리라.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s30.wav|꽤 오랜 시가니 지낟따고 생각뙏따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s31.wav|그런데도 소녀는 나타나지 안는다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s32.wav|발도두믈 핻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s33.wav|그러고도 상당안 시가니 지낟따고 생각뙏따.|fx08|1
@@ -83,6 +91,8 @@ public_korean_wav/wav_22050/fx08/fx08_t02_s45.wav|다행이얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s46.wav|그러나 이상안 이리얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s47.wav|소녀에 그림자가 뵈지 안는 나리 계속뙬쑤록 소녀네 가슴 한 구서게는 어딘가 허저나미 자리잠는 거시얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s48.wav|주머니 속 조약또를 주무르는 버르시 생겯따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s49.wav|그러하 너떤 날, 소녀는 저네 소녀가 안자 물짱나늘 하던 징검다리 한가운데에 안자 보앋따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s50.wav|검게 타 널구리 그대로 비치얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s51.wav|시럳따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s52.wav|소녀는 두 소느로 물 소게 얼구를 움키얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s53.wav|멷 뻐니고 움키얻따.|fx08|1
@@ -101,6 +111,8 @@ public_korean_wav/wav_22050/fx08/fx08_t02_s65.wav|미가니 아찌랟따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s66.wav|집찌라 낵체가 입쑤레 흘러드럳따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s67.wav|코피엳따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s68.wav|소녀는 한 소느로 코피를 훔처 내면서 그냥 달렫따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s69.wav|어디선가 ‘바보, 바보.’ 하는 소리가 자꾸만 뒤따라오는 걷 까탇따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t02_s70.wav|토요이리얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s71.wav|개울가에 이르니, 며칠째 보이지 안턴 소녀가 건너편 가에 안자 물짱나늘 하고 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s72.wav|모르는 체 징검다리를 건너기 시자캗따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s73.wav|얼마 저네 소녀 아페서 한 번 실쑤를 해쓸 뿐, 여태 큰길 가드시 건너던 징검다리를 오느른 조심스럽께 건넌다.|fx08|1
@@ -119,6 +131,8 @@ public_korean_wav/wav_22050/fx08/fx08_t02_s85.wav|“너, 저 산 너머에 가 
 public_korean_wav/wav_22050/fx08/fx08_t02_s86.wav|벌 끄틀 가리켣따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t02_s87.wav|“업따.”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s01.wav|이 그를 일거 줄 네가 누구인지 나는 모른다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s02.wav|그러나 슬기롭꼬 아름다운 소녀이기를 바라면서 그를 쓴다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s03.wav|슬기롭따는 거슨, 그리고 아름답따는 거슨, 그 사실만 가지고도 커다란 보라미기 때무니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s04.wav|일쩌네 사라믈 만나기 위해 종노에 인는 제과저메를 들른 니리 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s05.wav|우리 이욷 짜리에는 여학쌩 대여서시 자리를 잡꼬 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s06.wav|그런데 그 애드리 깔깔거리며 주고반는 이야기를 듣따 보니, 나는 슬픈 생가기 드러써.|fx08|1
@@ -137,6 +151,8 @@ public_korean_wav/wav_22050/fx08/fx08_t03_s18.wav|그거 니내 지워지고 마
 public_korean_wav/wav_22050/fx08/fx08_t03_s19.wav|아름다우미 영워난 기쁘미라면, 그건 결코 일씨저긴 걷치레일 쑤 업써.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s20.wav|두고 볼쑤록 새롭께 피어나야 할 꺼야.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s21.wav|그러키 때무네 아름다우믄 하나에 발겨닐 쑤도 이써.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s22.wav|투명안 누네만 비치기 때무네…….|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s23.wav|그런데 사람드른 흐니 거주게 아름다움마늘 보려는 맹저미 읻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s24.wav|그래서 아름답께 보이려고 가즌 수고를 다 한다더군.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s25.wav|갑찐 화장푸믈 써야 하고, 무슨 무슨 운동을 하고, 갑삐싸 노슬 해 이버야 하고…….|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s26.wav|그드른 모르고 이써.|fx08|1
@@ -154,6 +170,8 @@ public_korean_wav/wav_22050/fx08/fx08_t03_s38.wav|사람마다 다르 널구를 
 public_korean_wav/wav_22050/fx08/fx08_t03_s39.wav|서로 뒤바뀌지 안케 아라볼 쑤 읻또로 거떤 보이지 안는 소니 그러케 비저 노은 거실까?|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s40.wav|아닐 꺼야.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s41.wav|아니고 말고.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s42.wav|그건 저마다 하는 지시 달라서 그런 거지.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s43.wav|얼구리란 마레 그눠니 어레 꼬레서 나왇따고 한다면, 한 사라메 얼굴 모스븐 곧 그 사라메 영오네 모스빌 꺼다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s45.wav|따라서, 아름답꼬 추한 거슨 나 아닌 누가 그러케 만드러 노은 게 아니라, 내 스스로에 행위에 의해 그러한 꼬를 드러낻따는 거시지.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s46.wav|욕찌거리를 자 라는 미이늘 우리가 상상알 쑤 읻께써?|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s47.wav|그건 결코 미이니 아니야.|fx08|1
@@ -171,6 +189,8 @@ public_korean_wav/wav_22050/fx08/fx08_t03_s58.wav|또, 그 온도는 이우스�
 public_korean_wav/wav_22050/fx08/fx08_t03_s59.wav|이러케 볼 때, 너에 존재는 절때저긴 거시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s60.wav|업써도 그마닌 그런 존재가 아니란 마리다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s61.wav|누이야, 이 살버라고 어두운 세상이 너에 그 청청아 나름다우므로 이내서 사라갈 마난 세상이 되도록 부디 슬기로워지거라.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s62.wav|네가 할 이리 무어신가를 차자라.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t03_s63.wav|그거시 곤 네 자시닐 꺼다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s64.wav|우리 지베서 그다지 멀찌 아는 고세 말근 무리 흐르는 내가 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s65.wav|그런데도 할머니는 그 내에 가서 빨래를 하는 버비 업썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t03_s66.wav|초벌 빨래는 반드시 샘무를 퍼서 하고, 빨고 난 빨래를 헹굴 때만 낸무를 이용앧따.|fx08|1
@@ -189,6 +209,8 @@ public_korean_wav/wav_22050/fx08/fx08_t04_s09.wav|더 깍찌도 모타고 까까
 public_korean_wav/wav_22050/fx08/fx08_t04_s10.wav|그는 잠자코 열씨미 깍꼬 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s11.wav|처으메는 빨리 깡는 걷 깓떠니, 저물도로 기리 돌려 보고 저리 돌려 보고 굼뜨기 시자카더니, 이내 마냥 늑짱이다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s12.wav|내가 보기에는 그마나면 다 됀는데, 자꾸만 더 깍꼬 읻따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t04_s13.wav|인제 다 돼쓰니 그냥 달라고 해도 몯 뜨른 체한다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t04_s14.wav|차 시가니 바쁘니 빨리 달라고해도 통 몯 뜨른 체 대꾸가 업따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s15.wav|점점 차 시가니 빠드태 왇따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s16.wav|갑까파고 지루하고 인제는 초조할 지경이다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s18.wav|나도 기가 마켜서, “살 사라미 조타는데 무얼 더 깡는단 마리오 ? 노인장, 외고지비시  구려. 차 시가니 업따니까…….”|fx08|1
@@ -206,6 +228,8 @@ public_korean_wav/wav_22050/fx08/fx08_t04_s29.wav|또, 얼마 후에 방망이�
 public_korean_wav/wav_22050/fx08/fx08_t04_s30.wav|사실, 다 되기느 나까부터 다 되어 읻떤 방망이다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s31.wav|차를 롣치고 다음 차로 가야 하는 나는 불쾌하기 짜기 업썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s32.wav|그 따위로 장사를 해 가지고 장사가 될 터기 업따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t04_s33.wav|손님 보뉘가 아니고 자기 보뉘다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t04_s34.wav|불친저라고 무뚝뚜칸 노이니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s35.wav|생가칼쑤로 콰가 낟따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s36.wav|그러다가 뒤를 도라다보니, 노이는 태여니 허리를 펴고 동대무네 추녀를 바라보고 읻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s37.wav|그 때, 어딘지 모르게 노인다워 보이는, 그 바라보고 인는 염 모습, 그리고 부드러운 눈매와 힌 수여메 내 마으믄 약깐 누그러젇따.|fx08|1
@@ -223,6 +247,8 @@ public_korean_wav/wav_22050/fx08/fx08_t04_s49.wav|이거슬 “소라 부친다.
 public_korean_wav/wav_22050/fx08/fx08_t04_s50.wav|약째마 내도 그러타.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s51.wav|옌나레는 숙찌황을 사면 보통에 거스 널마, 그보다 나은 거스 널마에 갑쓰로 구벼랟꼬, 구증 구포한 거슨 세 배 이상 비싿따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s52.wav|구증 구포란, 찌고 말리기를 아홉 뻐 난 거시다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t04_s53.wav|누느로 보아서는 다섣 뻐늘 쩐는지 열 뻐늘 쩐는지 알 쑤가 업따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t04_s54.wav|마를 믿꼬 사는 거시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s55.wav|시뇽이다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s56.wav|지그믄 그런 말조차 업따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t04_s57.wav|나미 보지도 안는데 아홉 뻔씨기나 찔 리도 업꼬, 또한 말만 믿꼬 세 배나 갑쓸 더 줄 사람도 업따.|fx08|1
@@ -241,6 +267,8 @@ public_korean_wav/wav_22050/fx08/fx08_t05_s07.wav|우리드리 사라가는 살�
 public_korean_wav/wav_22050/fx08/fx08_t05_s08.wav|이러한 살미 모여서 이루는 전체저긴 양상을 현시리라고 한다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s09.wav|소서를 보면, 일쌍 생와레 모스블 가능아며 닌는 그대로 그리려고 애쓰는 사실주의적 경양을 엳뽈 쑤 읻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s10.wav|그러나 현시를 인는 그대로 그린다면, 그거슨 역싸에 기록꽈 다를 바가 업따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t05_s11.wav|그러키 때무네 어느 시대건, 소서레서는 그드리 사라가면서 성취하고자 하는 이상을 현실과 함께 그리게 된다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t05_s12.wav|현시레 더 큰 비중을 두는 경양과, 이상을 중시하는 경양은 시대에 따라 달리 나타난다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s13.wav|고전 소서리 주로 바람지칸 살메 모스블 그린 데 비하여, 근대 소서른 현시를 인는 그대로 그리고자 노려카는 경양이 두드러진다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s14.wav|무나게 바녕되는 살메 모스븐, 작까에 시가게 따라 일딴 해서글 거친 모스비라는 저메서 인는 그대로에 현시르 나니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s17.wav|이처럼, 현시를 바라보는 작까드레 시가근 다르다.|fx08|1
@@ -256,6 +284,8 @@ public_korean_wav/wav_22050/fx08/fx08_t05_s26.wav|일쌍저긴 살메 현시리 
 public_korean_wav/wav_22050/fx08/fx08_t05_s28.wav|무나게 여러 장느 중에서 현실과에 연관성이 가장 큰 거슨 소서리다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s29.wav|어떤 경우에는, 역싸와 구부니 안 될 정도로 실쩨로 이썯떤 이를 그대로 옴긴 걷 까튼 느끼믈 주기도 한다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s30.wav|소서를 중시므로 무낙꽈 삼, 호근 현실과에 관계를 더 자세히 살펴보기로 한다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t05_s31.wav|시무네 ‘상녹쑤’에는 일쩨 강점기에 민족쩌긴 현실과 이상이 잘 라타나 읻따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t05_s32.wav|이 소서리 발표될 무렵, 우리 농초는 매우 피폐되어 이썯꼬, 피폐한 농초늘 부흥시키기 위한 사회저긴 운동이 여러 형태로 전개되얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s33.wav|마는 지식 청년드리 농촌 계몽을 위해 농초네 투시낻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s34.wav|그드른 문맹 퇴치를 위해 야하글 설리파기도 해쓰며, 경제저긴 층며네서 소비 조합 운동을 버리기도 핻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t05_s35.wav|그리고 농민드레 이를 직쩝 도와 주는 노력 봉사도 핻따.|fx08|1
@@ -273,6 +303,8 @@ public_korean_wav/wav_22050/fx08/fx08_t05_s47.wav|이범서네 ‘항마을 사�
 public_korean_wav/wav_22050/fx08/fx08_t06_s01.wav|사라믄 무어슬 위하여 사는가?|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s02.wav|이상을 위하여 산다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s03.wav|이상을 위하여 산다는 거슨 오직 인간마니 누릴 쑤 인는 특꿔니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t06_s04.wav|여타에 동무른 이상이라는 거시 업따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t06_s05.wav|다만, 현실마늘 위하여 산다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s06.wav|증, 먹끼 위하여 살고, 살기 위하여 멍는다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s07.wav|그러나 인생은 그러치가 안타.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s08.wav|먹끼도 해야 하겓찌만, 멍는 건마느로는 만조카지를 안는다.|fx08|1
@@ -289,6 +321,8 @@ public_korean_wav/wav_22050/fx08/fx08_t06_s20.wav|그러케 되면, 이버네는
 public_korean_wav/wav_22050/fx08/fx08_t06_s21.wav|현실과 이상에 차이는, 그거시 시련되언느냐 아난느냐에 달려 인는 거시라 하겓따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s22.wav|가령, 사라미 월쎄계에 가서 살려고 그 방버블 연구하고 읻따고 하자.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s23.wav|이거스 너디까지나 이상이여, 아직 현시르 나니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t06_s24.wav|우리에 월쎄계에서에 생와른 오늘랄까지도 이상에 지나지 안는 거시여, 현실로는 이루어지지 모타엳따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t06_s25.wav|그러나 그 가능성마는 충부니 보이고 읻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s27.wav|사라믄 이상을 추구하면서 산다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s28.wav|그리하여 그거슬 시려나려고 한다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s29.wav|그런데 이상에 시려니라는 거슨 그다지 용이한 이리 아니다.|fx08|1
@@ -305,6 +339,8 @@ public_korean_wav/wav_22050/fx08/fx08_t06_s39.wav|따라서, 인생에서 가장
 public_korean_wav/wav_22050/fx08/fx08_t06_s40.wav|그러면 지시글 획뜨카는 방버블 생가캐 보기로 하자.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s41.wav|가장 초보저기여 원시저긴 방버븐, 체허므로써 지시글 언는 니리다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s43.wav|또 어르믈 만저 보고 차가우믈 느끼게 되면, 어르믄 차가운 성지를 가젇따는 지시글 얻께 되는 거시다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t06_s44.wav|인가는 이와 가치 실쩨에 체허므로써 일쌩 똥안 마는 지시글 배우게 된다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t06_s45.wav|그러나 지시근 그 종뉴와 양이 무하나다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s46.wav|오늘랄까지 일류가 아라 낸 지시근, 한 개이니 한평생 체허믈 거드팔찌라도 그 면만 부네 일도 배우기 어려운 거시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s47.wav|또, 지식 쭝에는 체허므로써 배우기에는 너무 위허만 걷또 만타.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t06_s49.wav|그러므로 체험마느로써 모든 지시글 어드려는 거슨 매우 졸려란 방버빌 뿌 나니라, 거이 불가능안 이리라 하겓따.|fx08|1
@@ -320,6 +356,8 @@ public_korean_wav/wav_22050/fx08/fx08_t07_s07.wav|그러나 그는 고갠마루�
 public_korean_wav/wav_22050/fx08/fx08_t07_s08.wav|들 건너 멀리 바라다 보이는 정거장에서 연기가 물씬물씬 피어오르며 삐이카고 기적 쏘리가 들려왇끼 때무니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s09.wav|아드리 타고 내려올 기차는 점심때가 가까워서야 도차칸다는 거슬 모르는 바 아니얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s10.wav|해가 이제 겨우 산등성이 위로 한 뼘 가량 떠올라쓰니, 오정이 되려면 아직 차례 먼 거시다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t07_s11.wav|그러나 그는 공여니 마으미 바빧따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t07_s12.wav|‘까짇껃, 잠시 안자 쉬면 뭐 할 끼고.’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s13.wav|손가라그로 한쪽 콛꾸멍을 찡 누르면서 팽! 하고 마른코를 푸러 던젇따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s14.wav|그리고 휘청위청 고갣끼를 래려가는 거시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s15.wav|내리마근 오르마게 비하면 아무걷또 아니얻따.|fx08|1
@@ -355,6 +393,8 @@ public_korean_wav/wav_22050/fx08/fx08_t07_s47.wav|발모 카나를 약깐 접처
 public_korean_wav/wav_22050/fx08/fx08_t07_s48.wav|이른 가을처리얻끼 때무네 오슬 버서 두게 너러 너코 말릴 쑤느 니써쓰나, 여간 창피스러운 거시 아니얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s49.wav|오시 말짱 저젇따거나 오시 마를 때까지 발가벋꼬 기다려야 한다거나 해서가 아니얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s50.wav|팔뚜 카나가 몽땅 잘라저 나간 흉츠칸 몸뚱어리를 하느 라페 드러내노코 이써야 핻끼 때무니얻따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t07_s51.wav|지나치는 사라미 이쓸라치면, 하는 수 업씨 물 소그로 뛰어 드러가서 얼굴만 내노코 안자 이썯따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t07_s52.wav|무리 선뜨캐서 아래터기 덜떨거려쓰나, 오그라부튼 사타구니께를 한 소느로 꽉 움켜쥐고 버티는 수바께 업썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s53.wav|“흐흐흐⋯⋯”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s54.wav|그 때 이를 생가카면 지금도 곧 우스미 터저 나오는 거시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t07_s55.wav|하늘로 처들린 콛꾸멍이 연신 벌름거렫따.|fx08|1
@@ -370,6 +410,8 @@ public_korean_wav/wav_22050/fx08/fx08_t08_s05.wav|“그만 거둘까?”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s06.wav|“잘 생가캔네.”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s07.wav|‘봉평장에서 한 버니나 흐무타게 사본 닐 이써쓸까.’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s08.wav|‘내일 대화장에서나 한목 버러야겐네.’|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s09.wav|“오늘 바믄 새서 거러야 될껄?”|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s10.wav|“다리 뜨렫따.”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s12.wav|무명필과 주단 바리가 두 고리짜게 꼭 찯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s13.wav|멍서 귀에는 천 조가기 어수서나게 나맏따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s14.wav|다른 축뜰도 벌써 거진 전드를 걷꼬 이썯따.|fx08|1
@@ -387,6 +429,8 @@ public_korean_wav/wav_22050/fx08/fx08_t08_s25.wav|‘화중지병이지.’|fx08
 public_korean_wav/wav_22050/fx08/fx08_t08_s26.wav|‘연소패드를 적쑤로 하구야 대거리가 돼야 마리지.’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s27.wav|‘그러치두 아늘 껄.’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s28.wav|축뜨리 사조글 몯 쓰는 걷뚜 사시른 사시리나, 아무리 그러타구 내두, 왜 그 동이 마릴쎄.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s29.wav|‘감쪽까치 충줃찌블 후린 눈치거든.’|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s30.wav|‘무어, 그 애숭이가?’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s31.wav|‘물건 가지고 나꾸언나부지.’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s32.wav|‘착씨란 녀서긴 주 라랃떠니…….’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s33.wav|‘그 길마느 날 쑤 인나…….’|fx08|1
@@ -405,6 +449,8 @@ public_korean_wav/wav_22050/fx08/fx08_t08_s45.wav|그 꼬레 우리들과 한목
 public_korean_wav/wav_22050/fx08/fx08_t08_s46.wav|동이 아페 마가서면서부터 챙망이얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s47.wav|걱쩡두 팔짜여 하는 드시 빠니 처다보는 상기된 눈망우레 부딛칠 때, 결기메 따귀를 하나 갈겨 주지 안코는 배길 쑤 업썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s48.wav|동이도 화를 쓰고 패 카고 이러서기는 하여쓰나, 허 생워는 조금도 동새카는 버 법씨 마음머근 대로 다 지꺼렫따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s49.wav|어디서 주워 머근 선머스민지는 모르게쓰나, 네게도 아비 어미 닏껟찌.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s50.wav|그 사나운 꼴 보면 맘 조켇따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s51.wav|장사란 탐타카게 해야 되지.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s52.wav|계지비 다 무어야.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s53.wav|나가거라, 냉큼 꼴 치워.|fx08|1
@@ -422,6 +468,8 @@ public_korean_wav/wav_22050/fx08/fx08_t08_s65.wav|‘각따귀들 장나니지 �
 public_korean_wav/wav_22050/fx08/fx08_t08_s66.wav|짐승도 짐승이려니와 동이에 마음씨가 가스믈 울렫따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s67.wav|뒤를 따라 장파늘 다름지라려니, 게슴츠레한 누니 뜨거워질 껃 깓따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s68.wav|‘부락쓰런 녀석뜨리라 어쩌는 쑤 이써야저.’|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s69.wav|‘나귀를 몹씨 구는 녀석뜨를 그냥 두지느 나늘 껄.’|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s70.wav|반평생을 가치 지내온 짐승이얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s71.wav|가튼 주마게서 잠자고, 가튼 달비체 저즈면서, 장에서 장으로 거러다니는 동아네 이심 녀네 세워리 사람과 짐승을 함께 늘께 하엳따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s72.wav|가스러진 목 뒤 터른 주이네 머리털과도 가치 바스러지고, 개진개진 저즌 누는 주이네 눈과 가치 눈고비 흘럳따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s73.wav|몽당비처럼 짤께 슬리운 꼬리는 파리를 쪼츠려고 기껃 휘저어 보아야 벌써 다리까지는 다치 아낟따.|fx08|1
@@ -440,6 +488,8 @@ public_korean_wav/wav_22050/fx08/fx08_t08_s85.wav|‘암노믈 보고 저 혼자
 public_korean_wav/wav_22050/fx08/fx08_t08_s86.wav|코흘리개 한 녀서기 멀리서 소리를 첟따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s87.wav|‘고 녀성 말투가…….’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s88.wav|‘김첨지 당나귀가 가 버리니까 온통 흘글 차고 거푸믈 흘리면서 미친 소가치 날뛰는 걸.’|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s89.wav|‘꼬리 우스워 우리는 보고마 니썯따우.’|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t08_s90.wav|‘배를 좀 보지.’|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s91.wav|아이는 앵도라진 투로 소리를 치며 깔깔 우섣따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s92.wav|허 생워는 모르는 겨레 나치 뜨거워젇따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t08_s93.wav|묻 씨서늘 마그려고 그는 짐승에 배 아플 가리어 서지 아느며 난 되얻따.|fx08|1
@@ -458,6 +508,8 @@ public_korean_wav/wav_22050/fx08/fx08_t09_s11.wav|"너히 중에 누가 토끼�
 public_korean_wav/wav_22050/fx08/fx08_t09_s12.wav|용왕니미 시나드를 둘러보며 마래써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s13.wav|"제가 자바 오게씀니다, 용왕님."|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s14.wav|자라가 나서씀니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t09_s15.wav|"나에 충성스런 자라야, 네가 가서 토끼를 자바오너라."|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t09_s16.wav|용왕니믄 자라를 위하여 토끼 그리믈 그려 주어씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s17.wav|그래서 자라는 토끼 그리믈 갇꼬서 부지러니 육찌를 향아여 헤엄처 가씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s18.wav|자라는 널꼬 널븐 바다를 지나서 육찌에 도차캐씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s19.wav|따쓰한 봄나리라 사네는 울귿뿔그탄 꼳뜨리 피어읻꼬 새드리 반갑께 지저귀고 이써써여.|fx08|1
@@ -476,6 +528,8 @@ public_korean_wav/wav_22050/fx08/fx08_t09_s31.wav|"자, 내 등에 타."|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s32.wav|자라에 송마으믈 모르는 토끼는 설레이는 가스믈 안고 자라에 등에 올라 타써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s33.wav|토끼는 정시넙씨 아름다운 바다 소글 구경아며 자라와 함께 용궁으로 향애써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s34.wav|그런데 이게 웨니리에여?|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t09_s35.wav|토끼가 용궁에 도차카자마자 용왕니메 시나가 나타나 토끼를 받쭐로 꽁꽁 무꺼써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t09_s36.wav|"왜 이러세여? "|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s37.wav|"저를 어서 푸러 주세여!"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s38.wav|토끼는 깜짱 놀라서 소리처써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s39.wav|"사시른 네 가느로 용왕니메 병을 치료하려고 한단다."|fx08|1
@@ -494,6 +548,8 @@ public_korean_wav/wav_22050/fx08/fx08_t09_s51.wav|중는 줄마 나랃떤 토끼
 public_korean_wav/wav_22050/fx08/fx08_t09_s52.wav|"자, 어서 가세여!"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s53.wav|토끼는 자라에 등에 타고 육찌로 향애써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s54.wav|너무나 기부니 조아서 싱글뻥글 핻찌여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t09_s55.wav|"자라야, 잘 가!"|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t09_s56.wav|바닫까에 도차칸 토끼는 깡충 뛰어 내리며 자라에게 마래써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s57.wav|"토끼야, 어서 가서 네 가늘 가저와!"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s58.wav|"세상에 가늘 떼어 노코 다니는 동무리 어디 인니?"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t09_s59.wav|"이 바보야!"|fx08|1
@@ -510,6 +566,8 @@ public_korean_wav/wav_22050/fx08/fx08_t10_s11.wav|"살려 주세여."|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s12.wav|"저는 사냥꾸네게 쫃끼고 이써여."|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s13.wav|가엽께도 사스믄 오드로들 떨고 이써써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s14.wav|나무꾸는 사스믈 얼른 숩 소게 숨겨 주어써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t10_s15.wav|잠시 후에 사냥꾸니 씩씩꺼리며 뒤쪼차 와써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t10_s16.wav|사냥꾸는 사방을 두리번거리더니 나무꾸네게 무러써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s17.wav|"이리 도망온 사스믈 몯 뽀앋쏘?"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s18.wav|나무꾸는 시치미를 뚝 떼어써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s19.wav|"저기, 저쪼그로 뛰어 가써여."|fx08|1
@@ -527,6 +585,8 @@ public_korean_wav/wav_22050/fx08/fx08_t10_s31.wav|"무슨 니리 이써도 선�
 public_korean_wav/wav_22050/fx08/fx08_t10_s32.wav|사스믄 나무꾸네게 멷 뻐니나 다지믈 하고는 숩 소그로 뛰어가 버려써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s33.wav|며칠 후 둥그런 보름다리 뜨자 나무꾸는 사스미 일러 준 산꼭때기로 올라가써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s34.wav|거기에는 정말 아름답꼬 말근 연모시 이써써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t10_s35.wav|그 연몯 뚤레에는 꼳뜨리 피어 읻꼬 수피 우거저 꼬턍기와 풀 램새가 나무꾸늘 취하게 만드럳쩌.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t10_s36.wav|더웅 놀라운 거슨, 일곱 빋깔 무지개를 타고 선녀드리 너울러울 추믈 추듣 사뿌니 연몯까로 내려오는 거시 보여써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s37.wav|선녀드른 너무 아름다워써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s38.wav|연몯까에 내려온 선녀드른 날개오슬 후룰 버서 나묻까지에 걸처 노코, 연모스로 드러가 모교글 핻찌여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s39.wav|나무꾸는 사스미 일러 준 대로 날개오 탄 버를 감추어 버리고 숩 소게 수머서 기다려써여.|fx08|1
@@ -545,6 +605,8 @@ public_korean_wav/wav_22050/fx08/fx08_t10_s51.wav|"추우실 텐데 우선 이 �
 public_korean_wav/wav_22050/fx08/fx08_t10_s52.wav|나무꾸는 미리 준비해 오 노슬 선녀에게 주어써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s53.wav|선녀는 나무꾸니 건네 주는 오슬 입꼬, 하는 수 업씨 나무꾸늘 따라가서 살게 되얻찌여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s54.wav|그 후 예쁜 선녀는 나무꾸네 아내가 되얻꼬 예쁜 선녀를 아내로 마즌 나무꾸는 더욱 열씨미 이래써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t10_s55.wav|선녀도 하늘라라 일드를 모두 이저버리고 나무꾸네 사랑을 듬뿍 바드며 행보카게 사라써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t10_s56.wav|하 내, 두 해, 세워리 지나는 사이에 선녀는 두 아이를 라아 기르게 되얻찌여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s57.wav|어느 날, 라무꾸는 선녀와 이런 이야기, 저런 이야기를 하다가 그만 날개오슬 감춘 이야기까지 하고 마라써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s58.wav|선녀는 날개오시 입꼬 시퍼 견딜 쑤가 업써써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s59.wav|"여보. 당시니 내 날개오슬 감추얻따고여?"|fx08|1
@@ -562,6 +624,8 @@ public_korean_wav/wav_22050/fx08/fx08_t10_s70.wav|"아, 사스미 한 마를 꼭
 public_korean_wav/wav_22050/fx08/fx08_t10_s71.wav|"사스미 아기를 센 나을 때까지 날개 오슬 래주지 말라고 한 뜨슨 세 아이를 두 팔로느 나늘 수가 업썯끼 때무니얻꾸나!"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t10_s72.wav|"아아, 이를 어쩌나......"|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s01.wav|옌날 어느 산골마으레 울기를 자라는 어리내가 이써씀니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t11_s02.wav|어머니가 아무리 달래도 보채면서 우르믈 그치지 아나씀니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t11_s03.wav|그래서 어떠케 하면 어리내에 우르믈 그치게 할 쑤 이쓸까 생가카던 끄테 한 가지 궁니가 나씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s04.wav|“호랑이가 온다,  호랑이".|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s05.wav|"큰 호랑이가 오니 어서 우르믈 그처라."|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s06.wav|그러나 어리내는 우르믈 그치지 아나씀니다.|fx08|1
@@ -580,6 +644,8 @@ public_korean_wav/wav_22050/fx08/fx08_t11_s18.wav|이리하여 바미 어둡끼�
 public_korean_wav/wav_22050/fx08/fx08_t11_s19.wav|“으앙, 으앙 …….” 하고 방아네서 또 어리내에 우름소리가 울려씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s20.wav|“차 미상아다".|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s21.wav|"왜 저러케 울고 이쓸까?"|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t11_s22.wav|"무슨 이리라도 생견나?”|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t11_s23.wav|호랑이는 이 생각 쩌 생가 카면서 방아네 목쏘리에 귀를 기우려씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s24.wav|한편 방아네서는 엄마가 아이를 열씨미 달래고 이써씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s25.wav|아무리 달래도 도무지 우르믈 그치지 아나씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s26.wav|엄마는 어리내를 달래다가 지처씀니다.|fx08|1
@@ -597,6 +663,8 @@ public_korean_wav/wav_22050/fx08/fx08_t11_s37.wav|“산소게서도 호랑이�
 public_korean_wav/wav_22050/fx08/fx08_t11_s38.wav|이 때 방아네 엄마는 여러가지로 궁니하다가“저기 곧까미 읻꾸나!”라고 마래씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s39.wav|아이는 곧까미라는 마를 듣꼬는 지금까지 울던 우르믈 뚝 그처씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t11_s41.wav|이 무렵 빵아네 어리내는 엄마가 준 곧까믈 들고 마싣께 냠냠 먹꼬 이써씀니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t11_s42.wav|어리서근 호랑이는 곧까미 자기보다 더 무서운 짐승인줄로마 나랃떤 거심니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t12_s01.wav|어느 기픈 산고레 오누이와 어머니가 살고 이써써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s02.wav|하루는 이를 라가시 너머니가 나리 저무런는데도 오시지 아나씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s03.wav|지브로 오는 기레 호랑이에게 그만 자바머키셛끼 때무니저.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s04.wav|이걷또 모르고 오누이는 오시지 안는 어머니를 기다리고 이써씀니다.|fx08|1
@@ -615,6 +683,7 @@ public_korean_wav/wav_22050/fx08/fx08_t12_s16.wav|"바보, 바보 도끼를 찍�
 public_korean_wav/wav_22050/fx08/fx08_t12_s17.wav|나무에 올라오려고 용을 쓰는 호랑이를 보며 시니난 동생은 진짜로 나무에 올라오는 방버블 알려주고 마라써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s18.wav|아이 이를 어쩌지여?|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s19.wav|호랑이는 도끼로 나무를 찌거가며 점점 오누이에게 올라오고 이써써여.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t12_s21.wav|이 동아주를 타고 오누이는 하늘로 올라갇찌여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s22.wav|이를 본 호랑이도 똑까치 하나님께 기도를 해써여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s23.wav|"하나님, 이 호랑이에게도 동아주를 래려주세여!" "어 흥~".|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t12_s24.wav|그러자 하느레서 또 동아주리 내려와씀니다.|fx08|1
@@ -632,6 +701,7 @@ public_korean_wav/wav_22050/fx08/fx08_t13_s07.wav|이때쯤 짇꾸즌 동네 아
 public_korean_wav/wav_22050/fx08/fx08_t13_s08.wav|하지마 나주머니드른 시른 기새기 아님니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s09.wav|오히려 소늘 오므려 무를 뿌려 보지마 나저씨는 벌써 징검다리를 다 건너 저펴네서 씨 굳꼬 이씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s11.wav|윈마으레서 배꼬치피 떠러저 무를 따라 떠내려오면 보믄 지나가고 여르미 차자옴니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t13_s13.wav|그러다 가무미라도 들면 마른 낻까에 웅덩이를 파고는 두레바그로 무를 퍼 올림니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s14.wav|소네 물찌비 생기고 따미 비 오드 타지만 노느로 올라간 무리 벼포기 사이로 스며드는 거슬 보면 새 히미 소씀니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s15.wav|장마처리 되어 무리 부러나면 내를 가로질러 성긴 바를 처 둠니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s16.wav|그러면 도 라래 수머 읻떤 게드리 센 물싸를 몯 껸디고 떠내려오다 바레 걸림니다.|fx08|1
@@ -645,6 +715,7 @@ public_korean_wav/wav_22050/fx08/fx08_t13_s28.wav|윋똥네에서 꼬치피 흘�
 public_korean_wav/wav_22050/fx08/fx08_t13_s29.wav|가으리 가면 무늘 닫꼬 도라안드시 낻까에는 사람드레 발기리 뚝 끄너짐니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s30.wav|어쩌다 건넌마을 호닌잔치나 이런저런 행사에 가시는 어른드리 두루마기를 입꼬 징검다리를 조심조심 건너는 모슴만 보일 뿌님니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s31.wav|겨우리 와도 어르미 얼찌 아느면 시낻까는 황냥암니다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t13_s32.wav|하지만 날씨가 추워저 어르미 꽁꽁 얼며 나이드리 몰려와 다시금 붐비기 시자캄니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s34.wav|어름 위로 소사 인는 돌멩이를 요리조리 피하면서 썰매 타는 마슨 경어마지 아는 사람드른 결코 모름니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s35.wav|마을 압 시낻까에도 이러케 마는 이야기가 인는데 내 아페 인는 사라메게는 얼마나 마는 이야기가 이쓸까여.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t13_s36.wav|얼마나 마는 그리움과 아픔과 사랑이 가스믈 타고 흐르고 이쓸까여.|fx08|1
@@ -660,6 +731,8 @@ public_korean_wav/wav_22050/fx08/fx08_t14_s12.wav|나는 난처한 표정으로 
 public_korean_wav/wav_22050/fx08/fx08_t14_s13.wav|“그러면 지베 갈 차비도 업껜네.”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t14_s14.wav|그러더니 아주머니는 구겨진 처 눤짜리 한 장을 건네주얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t14_s15.wav|“다으메 올 때 주세여” 하면서.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t14_s16.wav|나는 문득 가스미 뭉크래젇따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t14_s17.wav|서울 생와를 한 지 이시벼 녀니 지낟찌만 이런 니른 처으미얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t14_s18.wav|내게 서우리라는 도시는 모르는 이에게는 버쓰 토큰 하나 빌려 주지 안는 고시얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t14_s19.wav|그래서 언젠가는 집까지 거러간 적또 이썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t14_s21.wav|그날 이후 나는 신무늘 살 때마다 꼬박꼬박 광와문 지하도를 찯께 되얻따.|fx08|1
@@ -693,6 +766,8 @@ public_korean_wav/wav_22050/fx08/fx08_t16_s08.wav|안전 표시를 제대로 하
 public_korean_wav/wav_22050/fx08/fx08_t16_s09.wav|그때 누군가 다가왇따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s10.wav|“차가 빠저써여?”|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s11.wav|안경 쓴 남자가 여니닌 드타 나가씨와 함께 우사늘 받처 들고 이썯따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t16_s12.wav|“제가 한번 해볼까여?”|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t16_s13.wav|남자는 능수칸 솜씨로 시동을 거럳따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s14.wav|그러나 차는 꼼짝또 하지 아낟따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s15.wav|차에서 내린 남자는 도리며 나무토막뜨를 주워 와서는 바퀴에 괴기 시자캗따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s16.wav|흘꽈 누느로 엉망이 된 소는 빨가케 어럳꼬 조용이 서 읻떠 나가씨도 종이 상자를 지버와 그를 도왇따.|fx08|1
@@ -711,6 +786,8 @@ public_korean_wav/wav_22050/fx08/fx08_t16_s28.wav|이어 정시늘 차려 보니
 public_korean_wav/wav_22050/fx08/fx08_t16_s29.wav|“감사함니다!” 하고 소리치자 아저씨는 호탕아게 우스며 소늘 내젇꼬는 차를 돌렫따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s30.wav|그리고 고마운 여닌드른 어느새 사람들 소그로 사라저 인사조차 할 쑤 업썯따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s31.wav|덩그러니 나믄 나는 그 자리에 오랟똥안 서 이썯따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t16_s32.wav|누는 여저니 내렫꼬 교통 체증도 여저낻꼬 연극 연스베는 어처구니업씨 느저 버렫따.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t16_s33.wav|그런데도 마냥 조앋따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s34.wav|선무를 잔뜩 바든 기부니얻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t16_s35.wav|내가 사는 이 세상으로부터….|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t17_s01.wav|숭늉이나 누룽지 마슬 모르는 사람들, 이거시 바로 지그메 시난구기다.|fx08|1
@@ -729,6 +806,7 @@ public_korean_wav/wav_22050/fx08/fx08_t17_s13.wav|그거슨 최종 단계에서 
 public_korean_wav/wav_22050/fx08/fx08_t17_s14.wav|바블 푼다는 거슨 바블 진는 과정에서 생기는 마이너쓰 요이니다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t17_s15.wav|이 때 이거슬 해겨라는 방버베는 두 가지가 읻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t17_s16.wav|바비 눌찌 안케 소틀 개량아거나 누른바블 마이너쓰 현상으로 생가카지 안코 플러쓰 요소로 바꾸는 사고에 창조성이다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t17_s18.wav|한구기는 한 거름 더 나아가 숭늉을 마시는 풍스블 창조해 낻따.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t17_s19.wav|하지만 이제 숭늉과 누룽지 마슬 이러버린 시난구긴드레게는 일쩨 밥쏜마니 문명에 우승컵처럼 보일 꺼시다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t18_s01.wav|조상에게 가나늘 먼저 배우 나이들.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t18_s02.wav|좀 더 잘 가르치고 십꼬 잘 이피고 시픈 내 조구게 아이들.|fx08|1
@@ -759,6 +837,8 @@ public_korean_wav/wav_22050/fx08/fx08_t19_s07.wav|진종일 신경이 따믈 흘
 public_korean_wav/wav_22050/fx08/fx08_t19_s08.wav|좀 더 깨끄시 만드러 노코 서로 즐겁께 보낼 쑤도 이쓸 텐데.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s09.wav|나는 방아기면 대개 여르믈 텅 빈 서우레서 산다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s10.wav|모두들 피서라 해서 바다나 사늘 차자 떠나 버리면, 좀 빈 드탄 서우를 한가롭께 외추라며 조용이, 가만가만 서우를 산다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t19_s11.wav|그러다가 좀더 무더워지면 내 고향 잔자난 개우를 차자 내려간다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t19_s12.wav|내 고향은 경기도 안성군 양성며네 인는 난실리라는 산고리다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s13.wav|인가가 적꼬 사라미 드문 조그마한 조씨 마으리다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s14.wav|나는 이고세서 혼자에 피서를 한다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s15.wav|모믈 시키는 이상으로 정시늘 시킨다.|fx08|1
@@ -777,6 +857,8 @@ public_korean_wav/wav_22050/fx08/fx08_t19_s27.wav|창무늘 열면 그 신서난
 public_korean_wav/wav_22050/fx08/fx08_t19_s28.wav|이러케 해서 또 하루가 시작뙨다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s29.wav|오전 네 시부터 열 뚜 시까지 산장에서 이를 한다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s30.wav|잔디 위에서, 널븐 나무 그느레서, 아지 거린 과수나무 바테서, 어머님 묘소에서.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t19_s31.wav|그리곤 오후를 개우레서 알모므로 논다.|fx08|1
+public_korean_wav/wav_22050/fx08/fx08_t19_s32.wav|어려서 내가 놀던 그 물 소게서.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s33.wav|되도로기면 어려운 생가글 하지 안는다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s34.wav|되도로기면 적께 멍는다.|fx08|1
 public_korean_wav/wav_22050/fx08/fx08_t19_s35.wav|되도로기면 적께 마신다.|fx08|1

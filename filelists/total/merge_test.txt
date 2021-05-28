@@ -1,0 +1,234 @@
+/mnt/d/data/kss_wav/wav_22050/1_0000.wav|그는 괜찮은 척하려고 애쓰는 것 같았다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/1_0400.wav|사장님이 기다리고 계십니다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/1_0800.wav|게시판에 글 좀 올려.|kss|1
+/mnt/d/data/kss_wav/wav_22050/2_0160.wav|상처가 그만해서 그나마 다행이야.|kss|1
+/mnt/d/data/kss_wav/wav_22050/2_0560.wav|어제부터 날씨가 몹시 사나워요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/2_0960.wav|누가 거기에 가느냐는 별로 중요하지 않아요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_0203.wav|저는 부모님으로부터 아무 주목을 받지 못했어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_0603.wav|나는 집을 나서자마자 뛰기 시작했다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_1003.wav|저는 수줍음이 많아요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_1403.wav|사람들은 정치인들이 양심적으로 행동하기를 기대한다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_1803.wav|그는 인내심을 가지고 조용히 딸을 타일렀다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_2203.wav|아내는 부엌에서 음식을 준비하고 있습니다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_2603.wav|아내는 지금 출산 휴가 중이에요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_3003.wav|대통령은 총리와 대화 중이다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_3403.wav|전구 갈아야겠어.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_3803.wav|승객들이 검색대를 통과하고 있다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_4203.wav|모든 게 눈 깜짝할 사이에 일어났어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_4603.wav|그녀의 점수는 반 평균 이하였다.|kss|1
+/mnt/d/data/kss_wav/wav_22050/3_5003.wav|두근거리다|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_0378.wav|비서 일을 찾고 있어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_0778.wav|부산에서는 매년 가을 국제적인 영화 축제가 열려요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_1178.wav|요즘 두통이 너무 심해요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_1578.wav|머리 좀 건드리지 마.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_1978.wav|저는 어릴 때부터 과학에 관심이 많았어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_2378.wav|혀를 내밀어 보세요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_2778.wav|자유롭게 질문해 주세요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_3178.wav|졸업하고 나면 뭐 할 거예요?|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_3578.wav|커피 맛이 어때?|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_3978.wav|그 사람은 나이보다 늙어 보여요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_4378.wav|이 단어는 영어로부터 왔어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_4778.wav|4월 5일은 나무를 심는 날이에요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_5178.wav|싱싱한 딸기를 좀 사고 싶어요.|kss|1
+/mnt/d/data/kss_wav/wav_22050/4_5578.wav|저는 예술에 대해 아는 게 없어요.|kss|1
+/mnt/d/data/public_korean_wav/wav_22050/fv01/fv01_t01_s01.wav|기차도 전기도 업썯따.|fv01|1
+/mnt/d/data/public_korean_wav/wav_22050/fv01/fv01_t07_s31.wav|내리막끼를 쏘아 내려온 기운 그대로, 만도는 들기를 잰거름처 나가다가, 개천 두게 이르러서야 거르믈 멈추얻따.|fv01|1
+/mnt/d/data/public_korean_wav/wav_22050/fv01/fv01_t15_s09.wav|또 왜 엄마 소느로 꼭 바블 퍼 주션는지도.|fv01|1
+/mnt/d/data/public_korean_wav/wav_22050/fv02/fv02_t05_s02.wav|시에서는 우리드리 일쌍 생와레서 경는 일들보다는 아름답꺼나 슬픈 일뜨리 압축뙤어 인는 모스블 볼 쑤 읻따.|fv02|1
+/mnt/d/data/public_korean_wav/wav_22050/fv02/fv02_t11_s12.wav|추운 겨우레 또 누니 얼마나 마니 내련는지 산과 드리 온통 눈바다여서 머기가 업써씀니다.|fv02|1
+/mnt/d/data/public_korean_wav/wav_22050/fv03/fv03_t03_s03.wav|슬기롭따는 거슨, 그리고 아름답따는 거슨, 그 사실만 가지고도 커다란 보라미기 때무니다.|fv03|1
+/mnt/d/data/public_korean_wav/wav_22050/fv03/fv03_t09_s15.wav|"나에 충성스런 자라야, 네가 가서 토끼를 자바오너라."|fv03|1
+/mnt/d/data/public_korean_wav/wav_22050/fv04/fv04_t01_s11.wav|성터 돌무더기 미테 너구리구리 이썯따.|fv04|1
+/mnt/d/data/public_korean_wav/wav_22050/fv04/fv04_t07_s41.wav|군치미 목꾸멍에서 꿀꺼캗따.|fv04|1
+/mnt/d/data/public_korean_wav/wav_22050/fv04/fv04_t16_s02.wav|그 진눈깨비가 그해 천누니얻찌만 내겐 너무나 야소캗꼬 짜증스럽끼마 낻따.|fv04|1
+/mnt/d/data/public_korean_wav/wav_22050/fv05/fv05_t05_s12.wav|현시레 더 큰 비중을 두는 경양과, 이상을 중시하는 경양은 시대에 따라 달리 나타난다.|fv05|1
+/mnt/d/data/public_korean_wav/wav_22050/fv05/fv05_t11_s22.wav|"무슨 이리라도 생견나?”|fv05|1
+/mnt/d/data/public_korean_wav/wav_22050/fv06/fv06_t03_s13.wav|그런데 아름다운 소녀드레 이베서 거칠고 야비한 마리 거치멉씨 튀어나올 때, 어떠케 되겐니?|fv06|1
+/mnt/d/data/public_korean_wav/wav_22050/fv06/fv06_t09_s25.wav|토끼와 자라는 바로 쉽께 친구가 되어써여.|fv06|1
+/mnt/d/data/public_korean_wav/wav_22050/fv07/fv07_t01_s21.wav|이 밤받꼬른 산도 아니고 들도 아닌 펑퍼지만 구릉으로서, 이 고장 아이드레 노리터로 돼 이썯따.|fv07|1
+/mnt/d/data/public_korean_wav/wav_22050/fv07/fv07_t07_s51.wav|지나치는 사라미 이쓸라치면, 하는 수 업씨 물 소그로 뛰어 드러가서 얼굴만 내노코 안자 이썯따.|fv07|1
+/mnt/d/data/public_korean_wav/wav_22050/fv07/fv07_t16_s12.wav|“제가 한번 해볼까여?”|fv07|1
+/mnt/d/data/public_korean_wav/wav_22050/fv08/fv08_t05_s22.wav|증, 물쌔아레 심상을 산새알과 대비시켜 새로운 심상을 창조하고, 리드믈 살리도로 거너를 배여라여 노래핻따면, 이거슨 시가 된다.|fv08|1
+/mnt/d/data/public_korean_wav/wav_22050/fv08/fv08_t11_s32.wav|그래도 어리내가 우르믈 그치지 아느니 엄마는 더 큰 목쏘리로 외처씀니다.|fv08|1
+/mnt/d/data/public_korean_wav/wav_22050/fv09/fv09_t03_s23.wav|그런데 사람드른 흐니 거주게 아름다움마늘 보려는 맹저미 읻따.|fv09|1
+/mnt/d/data/public_korean_wav/wav_22050/fv09/fv09_t09_s35.wav|토끼가 용궁에 도차카자마자 용왕니메 시나가 나타나 토끼를 받쭐로 꽁꽁 무꺼써여.|fv09|1
+/mnt/d/data/public_korean_wav/wav_22050/fv10/fv10_t01_s31.wav|소녀는 소가 업썯따.|fv10|1
+/mnt/d/data/public_korean_wav/wav_22050/fv10/fv10_t07_s61.wav|만도는 여가 넌짜는 니리 이써도, 이 여편네에 궁둥이 겨테 가서 안즈면 소기 쑹 내려가는 거시얻따.|fv10|1
+/mnt/d/data/public_korean_wav/wav_22050/fv10/fv10_t16_s22.wav|망연자실 써 인는 우리 네 사람 겨테 이버네는 경찰차가 멈추어 섣따.|fv10|1
+/mnt/d/data/public_korean_wav/wav_22050/fv11/fv11_t05_s32.wav|이 소서리 발표될 무렵, 우리 농초는 매우 피폐되어 이썯꼬, 피폐한 농초늘 부흥시키기 위한 사회저긴 운동이 여러 형태로 전개되얻따.|fv11|1
+/mnt/d/data/public_korean_wav/wav_22050/fv11/fv11_t11_s42.wav|어리서근 호랑이는 곧까미 자기보다 더 무서운 짐승인줄로마 나랃떤 거심니다.|fv11|1
+/mnt/d/data/public_korean_wav/wav_22050/fv12/fv12_t03_s33.wav|그러나 그 꼬츤 누굴 위해 핀 거시 아니고, 스스로에 기쁨과 생명에 히므로 피어난 거시래.|fv12|1
+/mnt/d/data/public_korean_wav/wav_22050/fv12/fv12_t09_s45.wav|"용왕님, 이를 어쩌지여?"|fv12|1
+/mnt/d/data/public_korean_wav/wav_22050/fv13/fv13_t01_s41.wav|바동거려도 노아 주지 아느면 ‘메에’ 하고 울기도 핻따.|fv13|1
+/mnt/d/data/public_korean_wav/wav_22050/fv13/fv13_t08_s10.wav|“다리 뜨렫따.”|fv13|1
+/mnt/d/data/public_korean_wav/wav_22050/fv13/fv13_t16_s34.wav|선무를 잔뜩 바든 기부니얻따.|fv13|1
+/mnt/d/data/public_korean_wav/wav_22050/fv14/fv14_t05_s44.wav|독짜는 ‘상녹쑤’에서 사랑 이야기를 잉는 동시에, 민조게 현시를 개혀캐 나가려는 절므니드레 몸부리메 저파게 된다.|fv14|1
+/mnt/d/data/public_korean_wav/wav_22050/fv14/fv14_t12_s12.wav|우무레 비친 오누이를 발겨난 호랑이는 나무위로 올라오려고 어슬렁거려써여.|fv14|1
+/mnt/d/data/public_korean_wav/wav_22050/fv15/fv15_t03_s45.wav|따라서, 아름답꼬 추한 거슨 나 아닌 누가 그러케 만드러 노은 게 아니라, 내 스스로에 행위에 의해 그러한 꼬를 드러낻따는 거시지.|fv15|1
+/mnt/d/data/public_korean_wav/wav_22050/fv15/fv15_t09_s57.wav|"토끼야, 어서 가서 네 가늘 가저와!"|fv15|1
+/mnt/d/data/public_korean_wav/wav_22050/fv16/fv16_t02_s02.wav|소녀는 개우레다 소늘 잠그고 물짱나늘 하고 인는 거시다.|fv16|1
+/mnt/d/data/public_korean_wav/wav_22050/fv16/fv16_t08_s21.wav|장날 저녀근 정애 노코 계지베 고함 소리로 시작뙤는 거시다.|fv16|1
+/mnt/d/data/public_korean_wav/wav_22050/fv16/fv16_t17_s10.wav|밥 진는 이른 거기에서 끈난다.|fv16|1
+/mnt/d/data/public_korean_wav/wav_22050/fv17/fv17_t06_s10.wav|이상을 위하여 산다는 거스, 너떠한 꾸믈 그리며 산다는 마리 된다.|fv17|1
+/mnt/d/data/public_korean_wav/wav_22050/fv17/fv17_t12_s25.wav|호랑 이는 코를 벌름거리며 동아주를 타고 오누이를 쪼차가써여.|fv17|1
+/mnt/d/data/public_korean_wav/wav_22050/fv18/fv18_t03_s58.wav|또, 그 온도는 이우스로 번저 한 사회를 이루게 될 꺼시다.|fv18|1
+/mnt/d/data/public_korean_wav/wav_22050/fv18/fv18_t10_s10.wav|"나무꾸 나저씨!"|fv18|1
+/mnt/d/data/public_korean_wav/wav_22050/fv19/fv19_t02_s17.wav|그러나 번버니 허탕이다.|fv19|1
+/mnt/d/data/public_korean_wav/wav_22050/fv19/fv19_t08_s36.wav|그다지 마으미 당기지 안는 거슬 조차갇따.|fv19|1
+/mnt/d/data/public_korean_wav/wav_22050/fv19/fv19_t18_s07.wav|아까부터 자꾸만 박짜가 틀리던 처리 녀서게게 누늘 흘겨도 녀서근 여저니 틀리고, 나를 흘끋 처다보고는 벙귿 욷끼만 한다.|fv19|1
+/mnt/d/data/public_korean_wav/wav_22050/fv20/fv20_t06_s24.wav|우리에 월쎄계에서에 생와른 오늘랄까지도 이상에 지나지 안는 거시여, 현실로는 이루어지지 모타엳따.|fv20|1
+/mnt/d/data/public_korean_wav/wav_22050/fv20/fv20_t13_s11.wav|윈마으레서 배꼬치피 떠러저 무를 따라 떠내려오면 보믄 지나가고 여르미 차자옴니다.|fv20|1
+/mnt/d/data/public_korean_wav/wav_22050/fx01/fx01_t04_s05.wav|방망이를 한 벌 싸 가지고 가려고 까까 달라고 부타글 핻따.|fx01|1
+/mnt/d/data/public_korean_wav/wav_22050/fx02/fx02_t02_s32.wav|발도두믈 핻따.|fx02|1
+/mnt/d/data/public_korean_wav/wav_22050/fx02/fx02_t08_s51.wav|장사란 탐타카게 해야 되지.|fx02|1
+/mnt/d/data/public_korean_wav/wav_22050/fx02/fx02_t18_s22.wav|좀더 잘 가르치고 십꼬 잘 이피고 시픈 내 조구게 어리니들!|fx02|1
+/mnt/d/data/public_korean_wav/wav_22050/fx03/fx03_t06_s39.wav|따라서, 인생에서 가장 피료하고 가능아고 긴저란 활똥은 지시글 획뜨카는 그거시라고 하겓따.|fx03|1
+/mnt/d/data/public_korean_wav/wav_22050/fx03/fx03_t13_s26.wav|나오지 안켇따고 끋까지 버틴 녀서근 집께다리만 일코 드러가 다시는 나오지 안씀니다.|fx03|1
+/mnt/d/data/public_korean_wav/wav_22050/fx04/fx04_t04_s19.wav|노이는“다른 데 가 사우. 나 난 팔겓쏘.”하는 퉁명스런 대다비다.|fx04|1
+/mnt/d/data/public_korean_wav/wav_22050/fx04/fx04_t10_s41.wav|"아, 내 온,날개오시 업써전네? "|fx04|1
+/mnt/d/data/public_korean_wav/wav_22050/fx05/fx05_t02_s46.wav|그러나 이상안 이리얻따.|fx05|1
+/mnt/d/data/public_korean_wav/wav_22050/fx05/fx05_t08_s65.wav|‘각따귀들 장나니지 피련코.’|fx05|1
+/mnt/d/data/public_korean_wav/wav_22050/fx05/fx05_t19_s07.wav|진종일 신경이 따믈 흘리는 고통스러운 생지오기 아닐 쑤 업따.|fx05|1
+/mnt/d/data/public_korean_wav/wav_22050/fx06/fx06_t06_s51.wav|즉, 교유글 통아여 지시글 습뜨카는 방버비다.|fx06|1
+/mnt/d/data/public_korean_wav/wav_22050/fx06/fx06_t14_s02.wav|크고 자근 좌파 뉘에 갇까지 물거늘 싸아 노코 지나가는 이드레 눈기를 끈다.|fx06|1
+/mnt/d/data/public_korean_wav/wav_22050/fx07/fx07_t04_s30.wav|사실, 다 되기느 나까부터 다 되어 읻떤 방망이다.|fx07|1
+/mnt/d/data/public_korean_wav/wav_22050/fx07/fx07_t10_s52.wav|나무꾸는 미리 준비해 오 노슬 선녀에게 주어써여.|fx07|1
+/mnt/d/data/public_korean_wav/wav_22050/fx08/fx08_t02_s57.wav|소녀는 달리기 시자캗따.|fx08|1
+/mnt/d/data/public_korean_wav/wav_22050/fx08/fx08_t08_s77.wav|호소하는 목쏘리로 야단스럽께 울며 반겨한다.|fx08|1
+/mnt/d/data/public_korean_wav/wav_22050/fx08/fx08_t19_s19.wav|피라미나 송사리, 챙기름쟁이 가트 너진 개울 고기드리 내 모믈 스처 가기도 하고, 쫑쫑 주둥이로 쪼기도 하고 장난도 친다.|fx08|1
+/mnt/d/data/public_korean_wav/wav_22050/fx09/fx09_t07_s10.wav|해가 이제 겨우 산등성이 위로 한 뼘 가량 떠올라쓰니, 오정이 되려면 아직 차례 먼 거시다.|fx09|1
+/mnt/d/data/public_korean_wav/wav_22050/fx09/fx09_t14_s16.wav|나는 문득 가스미 뭉크래젇따.|fx09|1
+/mnt/d/data/public_korean_wav/wav_22050/fx10/fx10_t04_s44.wav|그리고 그 노이네 대한 내 태도를 뉘우첟따.|fx10|1
+/mnt/d/data/public_korean_wav/wav_22050/fx10/fx10_t10_s65.wav|눈 깜짜칼 사이에 선녀는 두 아이를 한 파레 한 명씨 간고 하늘로 훠뤌 라라가 버리는 거여써여.|fx10|1
+/mnt/d/data/public_korean_wav/wav_22050/fx11/fx11_t02_s70.wav|토요이리얻따.|fx11|1
+/mnt/d/data/public_korean_wav/wav_22050/fx11/fx11_t08_s89.wav|‘꼬리 우스워 우리는 보고마 니썯따우.’|fx11|1
+/mnt/d/data/public_korean_wav/wav_22050/fx11/fx11_t19_s31.wav|그리곤 오후를 개우레서 알모므로 논다.|fx11|1
+/mnt/d/data/public_korean_wav/wav_22050/fx12/fx12_t07_s21.wav|만도는 왼쪽 조끼 주머니에 꼬친 소맫짜라글 래려다보앋따.|fx12|1
+/mnt/d/data/public_korean_wav/wav_22050/fx12/fx12_t14_s26.wav|‘저에게 사라믈 믿꼬 사랑알 쑤 인는 버블 가르처 주셔쓰니까여.’|fx12|1
+/mnt/d/data/public_korean_wav/wav_22050/fx13/fx13_t04_s54.wav|마를 믿꼬 사는 거시다.|fx13|1
+/mnt/d/data/public_korean_wav/wav_22050/fx13/fx13_t11_s02.wav|어머니가 아무리 달래도 보채면서 우르믈 그치지 아나씀니다.|fx13|1
+/mnt/d/data/public_korean_wav/wav_22050/fx14/fx14_t02_s80.wav|얼른 소녀에 손바다그로 누늘 떨구얻따.|fx14|1
+/mnt/d/data/public_korean_wav/wav_22050/fx14/fx14_t09_s05.wav|"용왕니메 병을 고칠 쑤 인는 거슨 토끼에 간바께 업써여".|fx14|1
+/mnt/d/data/public_korean_wav/wav_22050/fx15/fx15_t01_s01.wav|기차도 전기도 업썯따.|fx15|1
+/mnt/d/data/public_korean_wav/wav_22050/fx15/fx15_t07_s32.wav|외나무다리가 노여 인는 조그마한 시낸무리얻따.|fx15|1
+/mnt/d/data/public_korean_wav/wav_22050/fx15/fx15_t15_s10.wav|엄마느 넌제나 우리에게 막 지은 새 바브로 상을 차려 주셛따.|fx15|1
+/mnt/d/data/public_korean_wav/wav_22050/fx16/fx16_t05_s03.wav|소서레서는 살메 모스비 시보다 더 여시라게 드러나기 때무네, 우리드레 살믈 그대로 옴긴 걷 까튼 느끼믈 받께 된다.|fx16|1
+/mnt/d/data/public_korean_wav/wav_22050/fx16/fx16_t11_s13.wav|“아이 배고프구나".|fx16|1
+/mnt/d/data/public_korean_wav/wav_22050/fx17/fx17_t03_s04.wav|일쩌네 사라믈 만나기 위해 종노에 인는 제과저메를 들른 니리 이썯따.|fx17|1
+/mnt/d/data/public_korean_wav/wav_22050/fx17/fx17_t09_s16.wav|용왕니믄 자라를 위하여 토끼 그리믈 그려 주어씀니다.|fx17|1
+/mnt/d/data/public_korean_wav/wav_22050/fx18/fx18_t01_s12.wav|이 굴 소게는 오래 전부터 늘근 너구리가 살고 읻따고 핻따.|fx18|1
+/mnt/d/data/public_korean_wav/wav_22050/fx18/fx18_t07_s42.wav|고기떼를 향애서 마른코를 팽팽 푸러 던지고, 그는 외나무다리를 조시미 딘는 거시얻따.|fx18|1
+/mnt/d/data/public_korean_wav/wav_22050/fx18/fx18_t16_s03.wav|날씨 타세 기리 마켜 나는 점점 더 초조해젇꼬, 교통지오글 향애 퍼붇떤 나에 저주는 지친 일쌍에 대한 회이에 이르럳따.|fx18|1
+/mnt/d/data/public_korean_wav/wav_22050/fx19/fx19_t05_s13.wav|고전 소서리 주로 바람지칸 살메 모스블 그린 데 비하여, 근대 소서른 현시를 인는 그대로 그리고자 노려카는 경양이 두드러진다.|fx19|1
+/mnt/d/data/public_korean_wav/wav_22050/fx19/fx19_t11_s23.wav|호랑이는 이 생각 쩌 생가 카면서 방아네 목쏘리에 귀를 기우려씀니다.|fx19|1
+/mnt/d/data/public_korean_wav/wav_22050/fx20/fx20_t03_s14.wav|꼳까지를 스처 오는 바람처럼 향기롭꼬 아름다운 말만 써도 다 모 타고 주글 우리인데…….|fx20|1
+/mnt/d/data/public_korean_wav/wav_22050/fx20/fx20_t09_s26.wav|"토끼 선생!"|fx20|1
+/mnt/d/data/public_korean_wav/wav_22050/fy01/fy01_t09_s22.wav|"저는 바다 속 용궁에 사는 자라임니다."|fy01|1
+/mnt/d/data/public_korean_wav/wav_22050/fy02/fy02_t09_s18.wav|자라는 널꼬 널븐 바다를 지나서 육찌에 도차캐씀니다.|fy02|1
+/mnt/d/data/public_korean_wav/wav_22050/fy03/fy03_t09_s14.wav|자라가 나서씀니다.|fy03|1
+/mnt/d/data/public_korean_wav/wav_22050/fy04/fy04_t09_s12.wav|용왕니미 시나드를 둘러보며 마래써여.|fy04|1
+/mnt/d/data/public_korean_wav/wav_22050/fy05/fy05_t09_s08.wav|"그거 참 걱쩡이네".|fy05|1
+/mnt/d/data/public_korean_wav/wav_22050/fy06/fy06_t09_s04.wav|시나드른 조타는 야근 다 써보앋찌만 용왕니메 병을 랃께 하지는 모태써여.|fy06|1
+/mnt/d/data/public_korean_wav/wav_22050/fy06/fy06_t19_s40.wav|그리고 파뤌 마리면 서울로 올라온다.|fy06|1
+/mnt/d/data/public_korean_wav/wav_22050/fy07/fy07_t19_s36.wav|되도로기면 적께 담배를 피운다.|fy07|1
+/mnt/d/data/public_korean_wav/wav_22050/fy08/fy08_t19_s32.wav|어려서 내가 놀던 그 물 소게서.|fy08|1
+/mnt/d/data/public_korean_wav/wav_22050/fy09/fy09_t19_s29.wav|오전 네 시부터 열 뚜 시까지 산장에서 이를 한다.|fy09|1
+/mnt/d/data/public_korean_wav/wav_22050/fy10/fy10_t19_s27.wav|창무늘 열면 그 신서난 공기, 심장까지 냉수를 마시는 느끼미다.|fy10|1
+/mnt/d/data/public_korean_wav/wav_22050/fy11/fy11_t19_s23.wav|되도로기면 등자늘 켜지 안는다.|fy11|1
+/mnt/d/data/public_korean_wav/wav_22050/fy12/fy12_t19_s19.wav|피라미나 송사리, 챙기름쟁이 가트 너진 개울 고기드리 내 모믈 스처 가기도 하고, 쫑쫑 주둥이로 쪼기도 하고 장난도 친다.|fy12|1
+/mnt/d/data/public_korean_wav/wav_22050/fy13/fy13_t18_s15.wav|어느 나린가 급씨카메 너어둔 결석쌩에 빵이 업써저 야다니 난 적또 이썯따.|fy13|1
+/mnt/d/data/public_korean_wav/wav_22050/fy16/fy16_t18_s07.wav|아까부터 자꾸만 박짜가 틀리던 처리 녀서게게 누늘 흘겨도 녀서근 여저니 틀리고, 나를 흘끋 처다보고는 벙귿 욷끼만 한다.|fy16|1
+/mnt/d/data/public_korean_wav/wav_22050/fy17/fy17_t18_s02.wav|좀 더 잘 가르치고 십꼬 잘 이피고 시픈 내 조구게 아이들.|fy17|1
+/mnt/d/data/public_korean_wav/wav_22050/mv01/mv01_t06_s08.wav|먹끼도 해야 하겓찌만, 멍는 건마느로는 만조카지를 안는다.|mv01|1
+/mnt/d/data/public_korean_wav/wav_22050/mv01/mv01_t12_s23.wav|"하나님, 이 호랑이에게도 동아주를 래려주세여!" "어 흥~".|mv01|1
+/mnt/d/data/public_korean_wav/wav_22050/mv02/mv02_t03_s56.wav|너에 하루하루가 너를 형성안다.|mv02|1
+/mnt/d/data/public_korean_wav/wav_22050/mv02/mv02_t10_s08.wav|그런데 어느 나리어써여.|mv02|1
+/mnt/d/data/public_korean_wav/wav_22050/mv03/mv03_t02_s14.wav|갑짜기 무를 움켜 낸다.|mv03|1
+/mnt/d/data/public_korean_wav/wav_22050/mv03/mv03_t08_s33.wav|‘그 길마느 날 쑤 인나…….’|mv03|1
+/mnt/d/data/public_korean_wav/wav_22050/mv03/mv03_t18_s03.wav|나에 살던 고향은 꼳피는 산고……라이드레 노래 소리가 유리창을 러머 봄바라믈 타고 조용안 마으레 퍼진다.|mv03|1
+/mnt/d/data/public_korean_wav/wav_22050/mv04/mv04_t06_S20.wav|그러케 되면, 이버네는 그 이상에 거슬 추구하게 되며, 그 이상에 거시 다시 이상이 되고 마는 거시다.|mv04|1
+/mnt/d/data/public_korean_wav/wav_22050/mv04/mv04_t13_S07.wav|이때쯤 짇꾸즌 동네 아저씨가 지나가다 돌멩이 하나를 주워 아주머니드 라페 몰래 던지면 무리 튀겨 아주머니들 얼굴과 오시 저씀니다.|mv04|1
+/mnt/d/data/public_korean_wav/wav_22050/mv05/mv05_t03_s68.wav|빨래에서 빠진 땐무리 아까워서엳따.|mv05|1
+/mnt/d/data/public_korean_wav/wav_22050/mv05/mv05_t10_s20.wav|나무꾸니 가르처 준 쪼그러 사냥꾸니 멀리 가버리자 나무꾸는 사스믈 불러써여.|mv05|1
+/mnt/d/data/public_korean_wav/wav_22050/mv06/mv06_t02_s25.wav|소녀는 저도 모르게 벌떠 기러섣따.|mv06|1
+/mnt/d/data/public_korean_wav/wav_22050/mv06/mv06_t08_s44.wav|장돌뱅이 망신만 시키고 도라다니누나.|mv06|1
+/mnt/d/data/public_korean_wav/wav_22050/mv06/mv06_t18_s13.wav|뽕뽕 빵차 와써요.하는 음성에 여플 보니 바께쓰에 히멀건 급씩 빵을 다마 가지고 와서 내 아페 내민다.|mv06|1
+/mnt/d/data/public_korean_wav/wav_22050/mv07/mv07_t06_s30.wav|그리하려면 저거도 두 가지 대가를 치러야 한다.|mv07|1
+/mnt/d/data/public_korean_wav/wav_22050/mv07/mv07_t13_s17.wav|바메 홷뿌를 들고 무레 드러가면 잠자는 물고기를 소느로 자블 쑤도 이씀니다.|mv07|1
+/mnt/d/data/public_korean_wav/wav_22050/mv08/mv08_t04_s09.wav|더 깍찌도 모타고 까까나 달라고만 부타캗따.|mv08|1
+/mnt/d/data/public_korean_wav/wav_22050/mv08/mv08_t10_s30.wav|"그런데, 꼬 칸 가지 지키셔야 할 리리 이써여".|mv08|1
+/mnt/d/data/public_korean_wav/wav_22050/mv09/mv09_t02_s35.wav|소녀가 갈꼬츠 란고 이썯따.|mv09|1
+/mnt/d/data/public_korean_wav/wav_22050/mv09/mv09_t08_s54.wav|그러나 한 마디도 대거리하지 안코 하여멉씨 나가는 꼬를 보려니, 도리어 츠그니 여겨젇따.|mv09|1
+/mnt/d/data/public_korean_wav/wav_22050/mv09/mv09_t18_s23.wav|보리바비지만 따뜨타게 「좀 잡쑤시고 가세요.」하고 소매를 붇뜰던 까만 눈빋꽈 어리 늠성을 라느 니즐 쑤도 버릴 쑤도 업따.|mv09|1
+/mnt/d/data/public_korean_wav/wav_22050/mv10/mv10_t06_s40.wav|그러면 지시글 획뜨카는 방버블 생가캐 보기로 하자.|mv10|1
+/mnt/d/data/public_korean_wav/wav_22050/mv11/mv11_t04_s19.wav|노이는“다른 데 가 사우. 나 난 팔겓쏘.”하는 퉁명스런 대다비다.|mv11|1
+/mnt/d/data/public_korean_wav/wav_22050/mv11/mv11_t10_s40.wav|얼마 후 선녀드른 모교글 끈내고 자기에 날개오슬 차자 입끼 시자캐써여.|mv11|1
+/mnt/d/data/public_korean_wav/wav_22050/mv12/mv12_t02_s45.wav|다행이얻따.|mv12|1
+/mnt/d/data/public_korean_wav/wav_22050/mv12/mv12_t08_s64.wav|‘생원 당나귀가 바를 끈쿠 야다니에여.’|mv12|1
+/mnt/d/data/public_korean_wav/wav_22050/mv12/mv12_t19_s06.wav|어디 인까니 즐거울 쑤 인는 장소라 하겐는가.|mv12|1
+/mnt/d/data/public_korean_wav/wav_22050/mv13/mv13_t06_s51.wav|즉, 교유글 통아여 지시글 습뜨카는 방버비다.|mv13|1
+/mnt/d/data/public_korean_wav/wav_22050/mv13/mv13_t14_s02.wav|크고 자근 좌파 뉘에 갇까지 물거늘 싸아 노코 지나가는 이드레 눈기를 끈다.|mv13|1
+/mnt/d/data/public_korean_wav/wav_22050/mv14/mv14_t09_s10.wav|시나드리 걱쩡스런 표정으로 마래써여.|mv14|1
+/mnt/d/data/public_korean_wav/wav_22050/mv16/mv16_t03_s08.wav|우리말고도 겨테는 다른 손님드리 꽤 이썬는데, 그 애드른 저녀 주위를 아랑고타지 안코 마구 떠드러대더구나.|mv16|1
+/mnt/d/data/public_korean_wav/wav_22050/mv16/mv16_t09_s21.wav|"안녕아세여, 토끼 선생님!"|mv16|1
+/mnt/d/data/public_korean_wav/wav_22050/mv17/mv17_t01_s17.wav|윋또리를 버서 부채 대신 휘둘러 보기도 해쓰나, 너구리는 쉽싸리 나오지 아낟따.|mv17|1
+/mnt/d/data/public_korean_wav/wav_22050/mv17/mv17_t07_s48.wav|이른 가을처리얻끼 때무네 오슬 버서 두게 너러 너코 말릴 쑤느 니써쓰나, 여간 창피스러운 거시 아니얻따.|mv17|1
+/mnt/d/data/public_korean_wav/wav_22050/mv17/mv17_t16_s09.wav|그때 누군가 다가왇따.|mv17|1
+/mnt/d/data/public_korean_wav/wav_22050/mv19/mv19_t03_s12.wav|그러하기 때무네 일쌍 생와레서 주고 반는 마른 우리드레 인격 형성에 꽤 큰 모글 차지하는 거다.|mv19|1
+/mnt/d/data/public_korean_wav/wav_22050/mv19/mv19_t09_s24.wav|"그러면 토끼선생은 왜 그러케 귀가 기러여?"|mv19|1
+/mnt/d/data/public_korean_wav/wav_22050/mv20/mv20_t01_s20.wav|진달래가 피고 잔디가 새로 도다나기 시자카면, 아이드른 약쏘기나 한 듣 빰받꼴로 모여드럳따.|mv20|1
+/mnt/d/data/public_korean_wav/wav_22050/mv20/mv20_t07_s50.wav|팔뚜 카나가 몽땅 잘라저 나간 흉츠칸 몸뚱어리를 하느 라페 드러내노코 이써야 핻끼 때무니얻따.|mv20|1
+/mnt/d/data/public_korean_wav/wav_22050/mv20/mv20_t16_s12.wav|“제가 한번 해볼까여?”|mv20|1
+/mnt/d/data/public_korean_wav/wav_22050/mw01/mw01_t05_s22.wav|증, 물쌔아레 심상을 산새알과 대비시켜 새로운 심상을 창조하고, 리드믈 살리도로 거너를 배여라여 노래핻따면, 이거슨 시가 된다.|mw01|1
+/mnt/d/data/public_korean_wav/wav_22050/mw01/mw01_t11_s32.wav|그래도 어리내가 우르믈 그치지 아느니 엄마는 더 큰 목쏘리로 외처씀니다.|mw01|1
+/mnt/d/data/public_korean_wav/wav_22050/mw02/mw02_t03_s23.wav|그런데 사람드른 흐니 거주게 아름다움마늘 보려는 맹저미 읻따.|mw02|1
+/mnt/d/data/public_korean_wav/wav_22050/mw02/mw02_t09_s35.wav|토끼가 용궁에 도차카자마자 용왕니메 시나가 나타나 토끼를 받쭐로 꽁꽁 무꺼써여.|mw02|1
+/mnt/d/data/public_korean_wav/wav_22050/mw03/mw03_t01_s32.wav|소 한 마리 머기기가 소녀는 늘 소워니얻따.|mw03|1
+/mnt/d/data/public_korean_wav/wav_22050/mw03/mw03_t16_s23.wav|절믄 경찰 쎄 명이 우르르 내렫꼬 모두 히믈 하패 차를 미러쓰나 소용업썯따.|mw03|1
+/mnt/d/data/public_korean_wav/wav_22050/mw04/mw04_t05_s33.wav|마는 지식 청년드리 농촌 계몽을 위해 농초네 투시낻따.|mw04|1
+/mnt/d/data/public_korean_wav/wav_22050/mw04/mw04_t12_s01.wav|어느 기픈 산고레 오누이와 어머니가 살고 이써써여.|mw04|1
+/mnt/d/data/public_korean_wav/wav_22050/mw05/mw05_t03_s34.wav|숩 쏘게 새들도 자기에 자유스런 마으메서 지저귀고, 밤 하느레 별뜰도 스스로 뿌머지는 자기 비츨 우리 마으메 던질 뿌니란 거야.|mw05|1
+/mnt/d/data/public_korean_wav/wav_22050/mw05/mw05_t09_s48.wav|"뭐라고?"|mw05|1
+/mnt/d/data/public_korean_wav/wav_22050/mw06/mw06_t01_s44.wav|멛쌔지블 차자 뒤지고 꿩 새끼를 쫃꼬 하는 동안 해가 뉘연뉘연 너머가면, 아이드른 제각끼 소를 차자 압쎄우고 마을로 내려왇따.|mw06|1
+/mnt/d/data/public_korean_wav/wav_22050/mw06/mw06_t08_s12.wav|무명필과 주단 바리가 두 고리짜게 꼭 찯따.|mw06|1
+/mnt/d/data/public_korean_wav/wav_22050/mw06/mw06_t16_s35.wav|내가 사는 이 세상으로부터….|mw06|1
+/mnt/d/data/public_korean_wav/wav_22050/mw07/mw07_t05_s45.wav|이러한 내용은, 당시 농초네 한 구서게 이썯떤 이야기가 아니라, 우리에 현시리 당며난 문제와 지향저믈 통압쩌그로 제시하고자 한 거시다.|mw07|1
+/mnt/d/data/public_korean_wav/wav_22050/mw07/mw07_t12_s13.wav|"얘드라, 어떠케 나무위에 올라간니?  "알려주면 안 자바 머글께" 하며 오누이드를 꼬여씀니다.|mw07|1
+/mnt/d/data/public_korean_wav/wav_22050/mw08/mw08_t03_s46.wav|욕찌거리를 자 라는 미이늘 우리가 상상알 쑤 읻께써?|mw08|1
+/mnt/d/data/public_korean_wav/wav_22050/mw08/mw08_t09_s58.wav|"세상에 가늘 떼어 노코 다니는 동무리 어디 인니?"|mw08|1
+/mnt/d/data/public_korean_wav/wav_22050/mw09/mw09_t02_s03.wav|서울서는 이런 개울무를 보지 모타기나 한 드시.|mw09|1
+/mnt/d/data/public_korean_wav/wav_22050/mw09/mw09_t08_s22.wav|‘생원, 시치믈 떼두 다 아네…….’|mw09|1
+/mnt/d/data/public_korean_wav/wav_22050/mw09/mw09_t17_s10.wav|밥 진는 이른 거기에서 끈난다.|mw09|1
+/mnt/d/data/public_korean_wav/wav_22050/mw10/mw10_t06_s08.wav|먹끼도 해야 하겓찌만, 멍는 건마느로는 만조카지를 안는다.|mw10|1
+/mnt/d/data/public_korean_wav/wav_22050/mw10/mw10_t12_s23.wav|"하나님, 이 호랑이에게도 동아주를 래려주세여!" "어 흥~".|mw10|1
+/mnt/d/data/public_korean_wav/wav_22050/mw11/mw11_t03_s56.wav|너에 하루하루가 너를 형성안다.|mw11|1
+/mnt/d/data/public_korean_wav/wav_22050/mw11/mw11_t10_s08.wav|그런데 어느 나리어써여.|mw11|1
+/mnt/d/data/public_korean_wav/wav_22050/mw13/mw13_t02_s13.wav|얼구리라도 비추어 보는 거시리라.|mw13|1
+/mnt/d/data/public_korean_wav/wav_22050/mw13/mw13_t08_s32.wav|‘착씨란 녀서긴 주 라랃떠니…….’|mw13|1
+/mnt/d/data/public_korean_wav/wav_22050/mw13/mw13_t18_s01.wav|조상에게 가나늘 먼저 배우 나이들.|mw13|1
+/mnt/d/data/public_korean_wav/wav_22050/mw14/mw14_t06_s19.wav|어떠한 이상을 추구하여 그거슬 시려나면, 그거슨 벌써 현시리 되어 버리고, 이상으 나닌 거시다.|mw14|1
+/mnt/d/data/public_korean_wav/wav_22050/mw14/mw14_t13_s06.wav|달래, 냉이, 돈 나물, 둥글 레, 씀바귀 등 보기마 내도 임마시 사라남니다.|mw14|1
+/mnt/d/data/public_korean_wav/wav_22050/mw15/mw15_t03_s67.wav|이유는 간다나다.|mw15|1
+/mnt/d/data/public_korean_wav/wav_22050/mw15/mw15_t10_s21.wav|"얘, 사스마!"|mw15|1
+/mnt/d/data/public_korean_wav/wav_22050/mw16/mw16_t02_s27.wav|갈받 사읻낄로 드러섣따.|mw16|1
+/mnt/d/data/public_korean_wav/wav_22050/mw16/mw16_t08_s46.wav|동이 아페 마가서면서부터 챙망이얻따.|mw16|1
+/mnt/d/data/public_korean_wav/wav_22050/mw16/mw16_t18_s15.wav|어느 나린가 급씨카메 너어둔 결석쌩에 빵이 업써저 야다니 난 적또 이썯따.|mw16|1
+/mnt/d/data/public_korean_wav/wav_22050/mw17/mw17_t06_s32.wav|그 일며는 이상을 추구하는 데 피료한 물찌레 축쩌기여, 다른 일며는 이러한 물찌를 화룡아는 데 피료한 육체적 부지러니다.|mw17|1
+/mnt/d/data/public_korean_wav/wav_22050/mw18/mw18_t04_s11.wav|처으메는 빨리 깡는 걷 깓떠니, 저물도로 기리 돌려 보고 저리 돌려 보고 굼뜨기 시자카더니, 이내 마냥 늑짱이다.|mw18|1
+/mnt/d/data/public_korean_wav/wav_22050/mw18/mw18_t10_s32.wav|사스믄 나무꾸네게 멷 뻐니나 다지믈 하고는 숩 소그로 뛰어가 버려써여.|mw18|1
+/mnt/d/data/public_korean_wav/wav_22050/mw19/mw19_t02_s37.wav|유나니 말근 가을 핻싸리 소녀에 갈꼰머리에서 반짝꺼렫따.|mw19|1
+/mnt/d/data/public_korean_wav/wav_22050/mw19/mw19_t08_s57.wav|충줃찌븐 입쑤를 쭝그타고 술 분는 솜씨도 거치러쓰나, 절믄 애드란테는 그거시 야기 된다 하고 그 자리는 조 선다리 얼버무려 넘겯따.|mw19|1
+/mnt/d/data/public_korean_wav/wav_22050/mw19/mw19_t18_s27.wav|보다 말꼬 보다 발근 내이레 꾸믈 키우면서 해님처럼 욷짜.|mw19|1
+/mnt/d/data/public_korean_wav/wav_22050/mw20/mw20_t06_s44.wav|인가는 이와 가치 실쩨에 체허므로써 일쌩 똥안 마는 지시글 배우게 된다.|mw20|1
+/mnt/d/data/public_korean_wav/wav_22050/mw20/mw20_t13_s31.wav|겨우리 와도 어르미 얼찌 아느면 시낻까는 황냥암니다.|mw20|1
+/mnt/d/data/public_korean_wav/wav_22050/my02/my02_t13_s23.wav|미꾸라지를 막때기 끄테 무꺼서 돌 트메 너으면 참게는 ‘이게 웬 떠긴가’ 하고 이블 오물거리며 다가옴니다.|my02|1
+/mnt/d/data/public_korean_wav/wav_22050/my04/my04_t13_s15.wav|장마처리 되어 무리 부러나면 내를 가로질러 성긴 바를 처 둠니다.|my04|1
+/mnt/d/data/public_korean_wav/wav_22050/my05/my05_t13_s11.wav|윈마으레서 배꼬치피 떠러저 무를 따라 떠내려오면 보믄 지나가고 여르미 차자옴니다.|my05|1
+/mnt/d/data/public_korean_wav/wav_22050/my06/my06_t13_s08.wav|하지마 나주머니드른 시른 기새기 아님니다.|my06|1
+/mnt/d/data/public_korean_wav/wav_22050/my07/my07_t13_s04.wav|그 아래에서는 으너 떼가 노란 꼬치플 바라보며 놀다가 어느새 온모미 노라케 물듬니다.|my07|1
+/mnt/d/data/public_korean_wav/wav_22050/my08/my08_t12_s28.wav|그 후 하늘로 올라간 오누이는 해와 다리 되언는데, 오빠는 달리미, 바믈 무서워하는 동생은 해니미 되얻땀니다.|my08|1
+/mnt/d/data/public_korean_wav/wav_22050/my09/my09_t12_s24.wav|그러자 하느레서 또 동아주리 내려와씀니다.|my09|1
+/mnt/d/data/public_korean_wav/wav_22050/my11/my11_t12_s16.wav|"바보, 바보 도끼를 찍꼬 올라오면 되자나."|my11|1
+/mnt/d/data/selvas_wav/wav_22050/ada/ada00001.wav|선거 결과 영국 꿍민드른 투표율 육씹사쩌모퍼센트에 찬성 육씹칠쩜이퍼센트 반대 삼시비쩜팔퍼센트로 투표하엳따|ada|1
+/mnt/d/data/selvas_wav/wav_22050/lmy/lmy02011.wav|좌석 벨트를 차굥애주시게씀니까|lmy|1
+/mnt/d/data/selvas_wav/wav_22050/pmc/pmc00027.wav|샤머는 세계 화교드레 고향이라 불리는 푸첸 성에 제 이도시에여|pmc|1

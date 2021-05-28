@@ -42,7 +42,7 @@ def init_distributed(hparams, n_gpus, rank, group_name):
 def prepare_dataloaders(hparams, output_directory):
     # Get data, data loaders and collate function ready
     trainset = TextMelLoader(hparams.training_files, hparams, output_directory=output_directory)
-    valset = TextMelLoader(hparams.validation_files, hparams)
+    valset = TextMelLoader(hparams.validation_files, hparams, speaker_ids=trainset.speaker_ids)
     collate_fn = TextMelCollate(hparams.n_frames_per_step)
 
     if hparams.distributed_run:
@@ -128,8 +128,8 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
     model.eval()
     with torch.no_grad():
         val_sampler = DistributedSampler(valset) if distributed_run else None
-        val_loader = DataLoader(valset, sampler=val_sampler, num_workers=num_workers,
-                                shuffle=False, batch_size=batch_size,
+        val_loader = DataLoader(valset, sampler=val_sampler, num_workers=1,
+                                shuffle=False, batch_size=batch_size, 
                                 pin_memory=False, collate_fn=collate_fn)
 
         val_loss = 0.0

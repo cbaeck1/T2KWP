@@ -13,16 +13,17 @@ def _integrate(meta_dir, train_file_lists, target_file, lang_code):
     i = 0
     for file_list in train_file_lists:
         path_list = os.path.join(meta_dir, file_list)
-        with open(path_list, 'r', encoding='utf-8-sig') as f:
+        with open(path_list, 'r', encoding='utf-8') as f:
             sources[i] = f.readlines()
         i += 1
 
     # integrate meta file
     target_path = os.path.join(meta_dir, target_file)
-    with open(target_path, 'w', encoding='utf-8-sig') as f:
+    with open(target_path, 'w', encoding='utf-8') as f:
         for i in range(len(sources)):
             for j in range(len(sources[i])):
-                sources[i][j] = sources[i][j].rstrip() + '|{}\n'.format(str(lang_code))  # add language code
+                sources[i][j] = sources[i][j].rstrip() + '\n'
+            #    sources[i][j] = sources[i][j].rstrip() + '|{}\n'.format(str(lang_code))  # add language code
 
         for i in range(1, len(sources)):
             sources[0] += sources[i]
@@ -34,31 +35,31 @@ def _integrate(meta_dir, train_file_lists, target_file, lang_code):
 # This better not be done multithread because meta file is going to be locked and it will be inefficient.
 def integrate_dataset(args):
     # sample 20개 
-    train_file_lists = ['sample_kss_wav_train.txt',
-                        'sample_public_korean_wav_train.txt',
-                        'sample_selvas_wav_train.txt'
-    ]
-    eval_file_lists = ['sample_kss_wav_valid.txt',
-                       'sample_public_korean_wav_valid.txt',
-                       'sample_selvas_wav_valid.txt'
-    ]
-    test_file_lists = ['sample_kss_wav_test.txt',
-                       'sample_public_korean_wav_test.txt',
-                       'sample_selvas_wav_test.txt'
-    ]
+    # train_file_lists = ['sample_kss_wav_train.txt',
+    #                     'sample_public_korean_wav_train.txt',
+    #                     'sample_selvas_wav_train.txt'
+    # ]
+    # eval_file_lists = ['sample_kss_wav_valid.txt',
+    #                    'sample_public_korean_wav_valid.txt',
+    #                    'sample_selvas_wav_valid.txt'
+    # ]
+    # test_file_lists = ['sample_kss_wav_test.txt',
+    #                    'sample_public_korean_wav_test.txt',
+    #                    'sample_selvas_wav_test.txt'
+    # ]
     # 전체데이터
-    # train_file_lists = ['kss_wav_train.txt',
-    #                     'public_korean_wav_train.txt',
-    #                     'selvas_wav_train.txt'
-    # ]
-    # eval_file_lists = ['kss_wav_valid.txt',
-    #                    'public_korean_wav_valid.txt',
-    #                    'selvas_wav_valid.txt'
-    # ]
-    # test_file_lists = ['kss_wav_test.txt',
-    #                    'public_korean_wav_test.txt',
-    #                    'selvas_wav_test.txt'
-    # ]
+    train_file_lists = ['kss_wav_train.txt',
+                        'public_korean_wav_train.txt',
+                        'selvas_wav_train.txt'
+    ]
+    eval_file_lists = ['kss_wav_valid.txt',
+                       'public_korean_wav_valid.txt',
+                       'selvas_wav_valid.txt'
+    ]
+    test_file_lists = ['kss_wav_test.txt',
+                       'public_korean_wav_test.txt',
+                       'selvas_wav_test.txt'
+    ]
 
     target_train_file = 'merge_train.txt'
     target_eval_file = 'merge_valid.txt'
@@ -88,67 +89,76 @@ def preprocess_cal_f0_scale_per_training_speaker(args):
     root_list = ['kss_wav/wav_22050','korean_public_wav/wav_22050','selvas_wav/wav_22050']
     f0_mean.build_from_path(root_list, args.hparams, args.num_workers, tqdm=tqdm)
 
-def preprocess_kss_wav(args):
+def preprocess_kss_wav(args, isSample):
     # sample 20개
-    # meta_path = 'kss/metadata.csv'
-    # in_dir = 'kss' 
-    # out_dir = 'kss_wav'
-    # filelists_name = [
-    #     'sample_kss_wav_train.txt',
-    #     'sample_kss_wav_valid.txt',
-    #     'sample_kss_wav_test.txt'
-    # ]
+    if isSample:
+        meta_path = 'kss/metadata.csv'
+        in_dir = 'kss' 
+        out_dir = 'kss_wav'
+        filelists_name = [
+            'sample_kss_wav_train.txt',
+            'sample_kss_wav_valid.txt',
+            'sample_kss_wav_test.txt'
+        ]
     # 전체데이터
-    meta_path = '/mnt/d/data/kss/kss_wav_origin.txt.new'
-    in_dir = '/mnt/d/data/kss' 
-    out_dir = '/mnt/d/data/kss_wav' 
-    filelists_name = [
-        'kss_wav_train.txt',
-        'kss_wav_valid.txt',
-        'kss_wav_test.txt'
-    ]
-    kss_wav.build_from_path(in_dir, out_dir, args.meta_dir, meta_path, filelists_name, args.num_workers, tqdm=tqdm)
+    else:
+        meta_path = '/mnt/d/data/kss/kss_wav_origin.txt.new'
+        in_dir = '/mnt/d/data/kss' 
+        out_dir = '/mnt/d/data/kss_wav' 
+        filelists_name = [
+            'kss_wav_train.txt',
+            'kss_wav_valid.txt',
+            'kss_wav_test.txt'
+        ]
 
-def preprocess_public_korean_wav(args):
+    kss_wav.build_from_path(in_dir, out_dir, args.meta_dir, meta_path, filelists_name, 1, tqdm=tqdm)
+
+def preprocess_public_korean_wav(args, isSample):
     # sample 20개
-    # meta_path = 'public_korean_wav/metadata.txt'
-    # in_dir = 'public_korean_wav' 
-    # out_dir = 'public_korean_wav'
-    # filelists_name = [
-    #     'sample_public_korean_wav_train.txt',
-    #     'sample_public_korean_wav_valid.txt',
-    #     'sample_public_korean_wav_test.txt'
-    # ]
+    if isSample:
+        meta_path = 'public_korean_wav/metadata.txt'
+        in_dir = 'public_korean_wav' 
+        out_dir = 'public_korean_wav'
+        filelists_name = [
+            'sample_public_korean_wav_train.txt',
+            'sample_public_korean_wav_valid.txt',
+            'sample_public_korean_wav_test.txt'
+        ]
     # 전체데이터
-    meta_path = '/mnt/d/data/public_korean_wav/public_korean_wav_orgin.txt'
-    in_dir = '/mnt/d/data/public_korean_wav' 
-    out_dir = '/mnt/d/data/public_korean_wav' 
-    filelists_name = [
-        'public_korean_wav_train.txt',
-        'public_korean_wav_valid.txt',
-        'public_korean_wav_test.txt'
-    ]
+    else:
+        meta_path = '/mnt/d/data/public_korean_wav/public_korean_wav_orgin.txt'
+        in_dir = '/mnt/d/data/public_korean_wav' 
+        out_dir = '/mnt/d/data/public_korean_wav' 
+        filelists_name = [
+            'public_korean_wav_train.txt',
+            'public_korean_wav_valid.txt',
+            'public_korean_wav_test.txt'
+        ]
+
     public_korean_wav.build_from_path(in_dir, out_dir, args.meta_dir, meta_path, filelists_name, args.num_workers, tqdm=tqdm)
 
-def preprocess_selvas_wav(args):
+def preprocess_selvas_wav(args, isSample):
     # sample 20개
-    # meta_path = 'selvas_wav/metadata.txt'
-    # in_dir = 'selvas_wav' 
-    # out_dir = 'selvas_wav'
-    # filelists_name = [
-    #     'sample_selvas_wav_train.txt',
-    #     'sample_selvas_wav_valid.txt',
-    #     'sample_selvas_wav_test.txt'
-    # ]
+    if isSample:
+        meta_path = 'selvas_wav/metadata.txt'
+        in_dir = 'selvas_wav' 
+        out_dir = 'selvas_wav'
+        filelists_name = [
+            'sample_selvas_wav_train.txt',
+            'sample_selvas_wav_valid.txt',
+            'sample_selvas_wav_test.txt'
+        ]
     # 전체데이터
-    meta_path = '/mnt/d/data/selvas_wav/selvas_wav_origin.txt.new'
-    in_dir = '/mnt/d/data/selvas_wav' 
-    out_dir = '/mnt/d/data/selvas_wav' 
-    filelists_name = [
-        'selvas_wav_train.txt',
-        'selvas_wav_valid.txt',
-        'selvas_wav_test.txt'
-    ]
+    else:
+        meta_path = '/mnt/d/data/selvas_wav/selvas_wav_origin.txt.new'
+        in_dir = '/mnt/d/data/selvas_wav' 
+        out_dir = '/mnt/d/data/selvas_wav' 
+        filelists_name = [
+            'selvas_wav_train.txt',
+            'selvas_wav_valid.txt',
+            'selvas_wav_test.txt'
+        ]
+
     selvas_wav.build_from_path(in_dir, out_dir, args.meta_dir, meta_path, filelists_name, args.num_workers, tqdm=tqdm)
 
 def main():
@@ -156,13 +166,14 @@ def main():
     # parser.add_argument('--base_dir', default=os.path.expanduser('/past_projects/DB'))
     # parser.add_argument('--output', default='sitec')
     parser.add_argument('--device', type=str, default=None)
-    parser.add_argument('--dataset', required=False, default='cal_f0_scale_per_training_speaker',
+    parser.add_argument('--dataset', required=False, default='kss_wav',
                         choices=['integrate_dataset', 'public_korean_wav', 'kss_wav', 'selvas_wav', 
                                  'check_file_integrity', 'generate_mel_f0', 'cal_f0_scale_per_training_speaker'])
     parser.add_argument('--hparams', default='',
                         help='Hyperparameter overrides as a comma-separated list of name=value pairs')
     parser.add_argument('--num_workers', type=int, default=1)
     parser.add_argument('--meta_dir', type=str, default='filelists')
+    parser.add_argument('--sample', type=bool, default=True)
     args = parser.parse_args()
     args.num_workers = cpu_count() if args.num_workers is None else int(args.num_workers)  # cpu_count() = process 갯수
     args.hparams = create_hparams()
@@ -171,11 +182,11 @@ def main():
     if args.dataset == 'integrate_dataset':
         integrate_dataset(args)
     elif args.dataset == 'kss_wav':
-        preprocess_kss_wav(args)
+        preprocess_kss_wav(args, args.sample)
     elif args.dataset == 'public_korean_wav':
-        preprocess_public_korean_wav(args)
+        preprocess_public_korean_wav(args, args.sample)
     elif args.dataset == 'selvas_wav':
-        preprocess_selvas_wav(args)
+        preprocess_selvas_wav(args, args.sample)
     elif args.dataset == 'check_file_integrity':
         check_for_file_integrity(args)
     elif args.dataset == 'generate_mel_f0':

@@ -13,7 +13,7 @@ import glob
 from scipy import interpolate
 import pandas as pd
 
-MOD_NUMBER = 400 # 전체데이터 400, sample 20
+MOD_NUMBER = 20 # 전체데이터 400, sample 20
 
 def build_from_path(in_dir, out_dir, meta_dir, meta_path, filelist_names, num_workers, tqdm=lambda x: x):
     wav_paths = []
@@ -24,7 +24,7 @@ def build_from_path(in_dir, out_dir, meta_dir, meta_path, filelist_names, num_wo
     # texts2d = [[] for i in range(len(wav_paths))]
     texts2d = [[]]
     #for i in range(len(meta_path)):
-    with open(meta_path, 'r', encoding='utf-8-sig') as f:
+    with open(meta_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         print("파일 {}, 문서 {}".format(len(wav_paths), len(lines)))
         texts2d = [[] for i in range(len(lines))]

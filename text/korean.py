@@ -132,12 +132,12 @@ upper_to_kor = {
 }
 
 def compare_sentence_with_jamo(text1, text2):
-    return h2j(text1) != h2j(text)
+    return h2j(text1) != h2j(text2)
 
 def tokenize(text, as_id=False):
     text = normalize(text)
     tokens = list(hangul_to_jamo(text))
-    # print(tokens)
+    #print(text, tokens)
     if as_id:
         return [char_to_id[token] for token in tokens] + [char_to_id[EOS]]
     else:
